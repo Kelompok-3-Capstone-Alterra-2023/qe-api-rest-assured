@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="GetDoctorIdUser" skipped="0" tests="2" time="0.49" timestamp="2023-06-26 03:25:07"><testcase name="GET - As admin I have be able to get doctor by id i input"/><testcase name="GET - As admin I have be able to prevented to get doctor by id i input"/></testsuite>

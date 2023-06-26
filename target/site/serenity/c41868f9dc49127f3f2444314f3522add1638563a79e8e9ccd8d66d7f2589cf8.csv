@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Auth","POST - As user I have be able to login existing user account","SUCCESS","2023-06-26T15:25:06.9003115+07:00[Asia/Jakarta]","0.0","0.28"
+"Auth","POST - As user I have be able to prevented to login","SUCCESS","2023-06-26T15:25:07.1805277+07:00[Asia/Jakarta]","0.0","0.34"

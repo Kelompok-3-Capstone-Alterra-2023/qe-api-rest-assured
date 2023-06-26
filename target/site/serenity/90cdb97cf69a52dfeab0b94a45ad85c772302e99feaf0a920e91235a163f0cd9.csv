@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"SearchArticle","GET - As user I have be able to search article by keyword i input","SUCCESS","2023-06-26T15:25:08.0253789+07:00[Asia/Jakarta]","0.0","0.21"
+"SearchArticle","GET - As user I have be able to get blank page for article keyword i input","SUCCESS","2023-06-26T15:25:08.2371735+07:00[Asia/Jakarta]","0.0","0.17"

@@ -1,0 +1,1070 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="starter.CucumberTestSuite" time="11.679" tests="12" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\VICTUS\IdeaProjects\RestAssuredCapstoneProject\target\test-classes;C:\Users\VICTUS\.m2\repository\net\serenity-bdd\serenity-core\3.5.1\serenity-core-3.5.1.jar;C:\Users\VICTUS\.m2\repository\net\serenity-bdd\serenity-model\3.5.1\serenity-model-3.5.1.jar;C:\Users\VICTUS\.m2\repository\org\apache\commons\commons-text\1.10.0\commons-text-1.10.0.jar;C:\Users\VICTUS\.m2\repository\commons-net\commons-net\3.8.0\commons-net-3.8.0.jar;C:\Users\VICTUS\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\VICTUS\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\VICTUS\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\VICTUS\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\VICTUS\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\VICTUS\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\VICTUS\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\VICTUS\.m2\repository\com\google\inject\guice\5.1.0\guice-5.1.0.jar;C:\Users\VICTUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\VICTUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\VICTUS\.m2\repository\org\jsoup\jsoup\1.14.3\jsoup-1.14.3.jar;C:\Users\VICTUS\.m2\repository\com\thoughtworks\xstream\xstream\1.4.19\xstream-1.4.19.jar;C:\Users\VICTUS\.m2\repository\io\github\x-stream\mxparser\1.2.2\mxparser-1.2.2.jar;C:\Users\VICTUS\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\VICTUS\.m2\repository\com\typesafe\config\1.4.2\config-1.4.2.jar;C:\Users\VICTUS\.m2\repository\org\imgscalr\imgscalr-lib\4.2\imgscalr-lib-4.2.jar;C:\Users\VICTUS\.m2\repository\org\awaitility\awaitility\4.2.0\awaitility-4.2.0.jar;C:\Users\VICTUS\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\VICTUS\.m2\repository\io\github\classgraph\classgraph\4.8.138\classgraph-4.8.138.jar;C:\Users\VICTUS\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\VICTUS\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.18\byte-buddy-agent-1.12.18.jar;C:\Users\VICTUS\.m2\repository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;C:\Users\VICTUS\.m2\repository\net\serenity-bdd\serenity-reports\3.5.1\serenity-reports-3.5.1.jar;C:\Users\VICTUS\.m2\repository\net\serenity-bdd\serenity-stats\3.5.1\serenity-stats-3.5.1.jar;C:\Users\VICTUS\.m2\repository\net\serenity-bdd\serenity-reports-configuration\3.5.1\serenity-reports-configuration-3.5.1.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-all\0.34.30\flexmark-all-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark\0.34.30\flexmark-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-abbreviation\0.34.30\flexmark-ext-abbreviation-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-admonition\0.34.30\flexmark-ext-admonition-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-anchorlink\0.34.30\flexmark-ext-anchorlink-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-aside\0.34.30\flexmark-ext-aside-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-attributes\0.34.30\flexmark-ext-attributes-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-autolink\0.34.30\flexmark-ext-autolink-0.34.30.jar;C:\Users\VICTUS\.m2\repository\org\nibor\autolink\autolink\0.6.0\autolink-0.6.0.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-definition\0.34.30\flexmark-ext-definition-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-emoji\0.34.30\flexmark-ext-emoji-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-enumerated-reference\0.34.30\flexmark-ext-enumerated-reference-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-escaped-character\0.34.30\flexmark-ext-escaped-character-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-footnotes\0.34.30\flexmark-ext-footnotes-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-issues\0.34.30\flexmark-ext-gfm-issues-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-strikethrough\0.34.30\flexmark-ext-gfm-strikethrough-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tables\0.34.30\flexmark-ext-gfm-tables-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tasklist\0.34.30\flexmark-ext-gfm-tasklist-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-users\0.34.30\flexmark-ext-gfm-users-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gitlab\0.34.30\flexmark-ext-gitlab-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-front-matter\0.34.30\flexmark-ext-jekyll-front-matter-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-tag\0.34.30\flexmark-ext-jekyll-tag-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-media-tags\0.34.30\flexmark-ext-media-tags-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-test-util\0.34.30\flexmark-test-util-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-ins\0.34.30\flexmark-ext-ins-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-xwiki-macros\0.34.30\flexmark-ext-xwiki-macros-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-superscript\0.34.30\flexmark-ext-superscript-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-tables\0.34.30\flexmark-ext-tables-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-toc\0.34.30\flexmark-ext-toc-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-typographic\0.34.30\flexmark-ext-typographic-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-wikilink\0.34.30\flexmark-ext-wikilink-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-yaml-front-matter\0.34.30\flexmark-ext-yaml-front-matter-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-youtube-embedded\0.34.30\flexmark-ext-youtube-embedded-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-formatter\0.34.30\flexmark-formatter-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-html-parser\0.34.30\flexmark-html-parser-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-jira-converter\0.34.30\flexmark-jira-converter-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-pdf-converter\0.34.30\flexmark-pdf-converter-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\openhtmltopdf\openhtmltopdf-core\0.0.1-RC13\openhtmltopdf-core-0.0.1-RC13.jar;C:\Users\VICTUS\.m2\repository\com\openhtmltopdf\openhtmltopdf-pdfbox\0.0.1-RC13\openhtmltopdf-pdfbox-0.0.1-RC13.jar;C:\Users\VICTUS\.m2\repository\org\apache\pdfbox\pdfbox\2.0.8\pdfbox-2.0.8.jar;C:\Users\VICTUS\.m2\repository\org\apache\pdfbox\fontbox\2.0.8\fontbox-2.0.8.jar;C:\Users\VICTUS\.m2\repository\org\apache\pdfbox\xmpbox\2.0.8\xmpbox-2.0.8.jar;C:\Users\VICTUS\.m2\repository\de\rototor\pdfbox\graphics2d\0.12\graphics2d-0.12.jar;C:\Users\VICTUS\.m2\repository\com\openhtmltopdf\openhtmltopdf-rtl-support\0.0.1-RC13\openhtmltopdf-rtl-support-0.0.1-RC13.jar;C:\Users\VICTUS\.m2\repository\com\ibm\icu\icu4j\59.1\icu4j-59.1.jar;C:\Users\VICTUS\.m2\repository\com\openhtmltopdf\openhtmltopdf-jsoup-dom-converter\0.0.1-RC13\openhtmltopdf-jsoup-dom-converter-0.0.1-RC13.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-profile-pegdown\0.34.30\flexmark-profile-pegdown-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-util\0.34.30\flexmark-util-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-youtrack-converter\0.34.30\flexmark-youtrack-converter-0.34.30.jar;C:\Users\VICTUS\.m2\repository\es\nitaur\markdown\txtmark\0.16\txtmark-0.16.jar;C:\Users\VICTUS\.m2\repository\net\serenity-bdd\serenity-report-resources\3.5.1\serenity-report-resources-3.5.1.jar;C:\Users\VICTUS\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\VICTUS\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.4\jackson-core-2.13.4.jar;C:\Users\VICTUS\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.4\jackson-databind-2.13.4.jar;C:\Users\VICTUS\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.4\jackson-annotations-2.13.4.jar;C:\Users\VICTUS\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\VICTUS\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\VICTUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\VICTUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\VICTUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-java\4.7.1\selenium-java-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v106\4.7.1\selenium-devtools-v106-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v107\4.7.1\selenium-devtools-v107-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.7.1\selenium-devtools-v108-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.7.1\selenium-devtools-v85-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.7.1\selenium-remote-driver-4.7.1.jar;C:\Users\VICTUS\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-buffer\4.1.84.Final\netty-buffer-4.1.84.Final.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-codec-http\4.1.84.Final\netty-codec-http-4.1.84.Final.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-codec\4.1.84.Final\netty-codec-4.1.84.Final.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-handler\4.1.84.Final\netty-handler-4.1.84.Final.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-common\4.1.84.Final\netty-common-4.1.84.Final.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.84.Final\netty-transport-classes-epoll-4.1.84.Final.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.84.Final\netty-transport-classes-kqueue-4.1.84.Final.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-transport-native-epoll\4.1.84.Final\netty-transport-native-epoll-4.1.84.Final.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.84.Final\netty-transport-native-kqueue-4.1.84.Final.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.84.Final\netty-transport-native-unix-common-4.1.84.Final.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-transport\4.1.84.Final\netty-transport-4.1.84.Final.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-resolver\4.1.84.Final\netty-resolver-4.1.84.Final.jar;C:\Users\VICTUS\.m2\repository\io\opentelemetry\opentelemetry-api\1.19.0\opentelemetry-api-1.19.0.jar;C:\Users\VICTUS\.m2\repository\io\opentelemetry\opentelemetry-context\1.19.0\opentelemetry-context-1.19.0.jar;C:\Users\VICTUS\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.19.0\opentelemetry-exporter-logging-1.19.0.jar;C:\Users\VICTUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.19.0\opentelemetry-sdk-metrics-1.19.0.jar;C:\Users\VICTUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.19.0-alpha\opentelemetry-sdk-logs-1.19.0-alpha.jar;C:\Users\VICTUS\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.19.0-alpha\opentelemetry-api-logs-1.19.0-alpha.jar;C:\Users\VICTUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.19.0\opentelemetry-sdk-common-1.19.0.jar;C:\Users\VICTUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.19.0\opentelemetry-sdk-extension-autoconfigure-spi-1.19.0.jar;C:\Users\VICTUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.19.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha.jar;C:\Users\VICTUS\.m2\repository\io\opentelemetry\opentelemetry-exporter-common\1.19.0\opentelemetry-exporter-common-1.19.0.jar;C:\Users\VICTUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.19.0\opentelemetry-sdk-trace-1.19.0.jar;C:\Users\VICTUS\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.19.0\opentelemetry-sdk-1.19.0.jar;C:\Users\VICTUS\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.19.0-alpha\opentelemetry-semconv-1.19.0-alpha.jar;C:\Users\VICTUS\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\VICTUS\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\VICTUS\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\VICTUS\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\VICTUS\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\VICTUS\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.7.1\selenium-manager-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.7.1\selenium-safari-driver-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-api\4.7.1\selenium-api-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-support\4.7.1\selenium-support-4.7.1.jar;C:\Users\VICTUS\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\VICTUS\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\VICTUS\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-json\4.7.1\selenium-json-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.7.1\selenium-chrome-driver-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.7.1\selenium-chromium-driver-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.7.1\selenium-firefox-driver-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-http\4.7.1\selenium-http-4.7.1.jar;C:\Users\VICTUS\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.7.1\selenium-edge-driver-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.7.1\selenium-ie-driver-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\VICTUS\.m2\repository\io\appium\java-client\8.3.0\java-client-8.3.0.jar;C:\Users\VICTUS\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar;C:\Users\VICTUS\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\VICTUS\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\VICTUS\.m2\repository\net\sf\opencsv\opencsv\2.0\opencsv-2.0.jar;C:\Users\VICTUS\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\VICTUS\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\VICTUS\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\VICTUS\.m2\repository\org\fluentlenium\fluentlenium-core\0.10.2\fluentlenium-core-0.10.2.jar;C:\Users\VICTUS\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.0\webdrivermanager-5.3.0.jar;C:\Users\VICTUS\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\VICTUS\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\VICTUS\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\VICTUS\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\VICTUS\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\VICTUS\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\VICTUS\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\VICTUS\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\VICTUS\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\VICTUS\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\VICTUS\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\VICTUS\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\VICTUS\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\VICTUS\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\VICTUS\.m2\repository\com\jhlabs\filters\2.0.235\filters-2.0.235.jar;C:\Users\VICTUS\.m2\repository\com\paulhammant\ngwebdriver\1.1.6\ngwebdriver-1.1.6.jar;C:\Users\VICTUS\.m2\repository\joda-time\joda-time\2.8.2\joda-time-2.8.2.jar;C:\Users\VICTUS\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\VICTUS\.m2\repository\com\google\jimfs\jimfs\1.2\jimfs-1.2.jar;C:\Users\VICTUS\.m2\repository\org\mockito\mockito-core\3.3.3\mockito-core-3.3.3.jar;C:\Users\VICTUS\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\VICTUS\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\VICTUS\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar;C:\Users\VICTUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\VICTUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\VICTUS\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\VICTUS\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\VICTUS\.m2\repository\net\serenity-bdd\serenity-rest-assured\3.5.1\serenity-rest-assured-3.5.1.jar;C:\Users\VICTUS\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\Users\VICTUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\VICTUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\VICTUS\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\Users\VICTUS\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\Users\VICTUS\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\Users\VICTUS\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\VICTUS\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\VICTUS\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\VICTUS\.m2\repository\net\serenity-bdd\serenity-cucumber\3.5.1\serenity-cucumber-3.5.1.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\cucumber-core\7.8.1\cucumber-core-7.8.1.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\cucumber-gherkin\7.8.1\cucumber-gherkin-7.8.1.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.8.1\cucumber-gherkin-messages-7.8.1.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\gherkin\24.0.0\gherkin-24.0.0.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\messages\19.1.4\messages-19.1.4.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\datatable\7.8.1\datatable-7.8.1.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\cucumber-plugin\7.8.1\cucumber-plugin-7.8.1.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\docstring\7.8.1\docstring-7.8.1.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\html-formatter\20.1.0\html-formatter-20.1.0.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\cucumber-java\7.8.1\cucumber-java-7.8.1.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\cucumber-junit\7.8.1\cucumber-junit-7.8.1.jar;C:\Users\VICTUS\.m2\repository\org\apache\commons\commons-csv\1.5\commons-csv-1.5.jar;C:\Users\VICTUS\.m2\repository\net\serenity-bdd\serenity-screenplay\3.5.1\serenity-screenplay-3.5.1.jar;C:\Users\VICTUS\.m2\repository\net\serenity-bdd\serenity-screenplay-webdriver\3.5.1\serenity-screenplay-webdriver-3.5.1.jar;C:\Users\VICTUS\.m2\repository\net\serenity-bdd\serenity-ensure\3.5.1\serenity-ensure-3.5.1.jar;C:\Users\VICTUS\.m2\repository\net\serenity-bdd\serenity-junit\3.5.1\serenity-junit-3.5.1.jar;C:\Users\VICTUS\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.7.21\kotlin-stdlib-1.7.21.jar;C:\Users\VICTUS\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.7.21\kotlin-stdlib-common-1.7.21.jar;C:\Users\VICTUS\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\VICTUS\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.2\junit-platform-launcher-1.8.2.jar;C:\Users\VICTUS\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\VICTUS\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\VICTUS\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\VICTUS\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\VICTUS\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\VICTUS\.m2\repository\org\junit\vintage\junit-vintage-engine\5.8.2\junit-vintage-engine-5.8.2.jar;C:\Users\VICTUS\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\VICTUS\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\VICTUS\.m2\repository\ch\qos\logback\logback-classic\1.2.10\logback-classic-1.2.10.jar;C:\Users\VICTUS\.m2\repository\ch\qos\logback\logback-core\1.2.10\logback-core-1.2.10.jar;C:\Users\VICTUS\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\VICTUS\.m2\repository\org\assertj\assertj-core\3.23.1\assertj-core-3.23.1.jar;C:\Users\VICTUS\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\VICTUS\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Jakarta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ID"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.3.1\bin"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\VICTUS\AppData\Local\Temp\surefire11323249169112306267 2023-06-26T15-25-00_004-jvmRun1 surefire3722218790880838025tmp surefire_014351509796686635203tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\VICTUS\IdeaProjects\RestAssuredCapstoneProject\target\test-classes;C:\Users\VICTUS\.m2\repository\net\serenity-bdd\serenity-core\3.5.1\serenity-core-3.5.1.jar;C:\Users\VICTUS\.m2\repository\net\serenity-bdd\serenity-model\3.5.1\serenity-model-3.5.1.jar;C:\Users\VICTUS\.m2\repository\org\apache\commons\commons-text\1.10.0\commons-text-1.10.0.jar;C:\Users\VICTUS\.m2\repository\commons-net\commons-net\3.8.0\commons-net-3.8.0.jar;C:\Users\VICTUS\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\VICTUS\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\VICTUS\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\VICTUS\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\VICTUS\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\VICTUS\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\VICTUS\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\VICTUS\.m2\repository\com\google\inject\guice\5.1.0\guice-5.1.0.jar;C:\Users\VICTUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\VICTUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\VICTUS\.m2\repository\org\jsoup\jsoup\1.14.3\jsoup-1.14.3.jar;C:\Users\VICTUS\.m2\repository\com\thoughtworks\xstream\xstream\1.4.19\xstream-1.4.19.jar;C:\Users\VICTUS\.m2\repository\io\github\x-stream\mxparser\1.2.2\mxparser-1.2.2.jar;C:\Users\VICTUS\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\VICTUS\.m2\repository\com\typesafe\config\1.4.2\config-1.4.2.jar;C:\Users\VICTUS\.m2\repository\org\imgscalr\imgscalr-lib\4.2\imgscalr-lib-4.2.jar;C:\Users\VICTUS\.m2\repository\org\awaitility\awaitility\4.2.0\awaitility-4.2.0.jar;C:\Users\VICTUS\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\VICTUS\.m2\repository\io\github\classgraph\classgraph\4.8.138\classgraph-4.8.138.jar;C:\Users\VICTUS\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\VICTUS\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.18\byte-buddy-agent-1.12.18.jar;C:\Users\VICTUS\.m2\repository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;C:\Users\VICTUS\.m2\repository\net\serenity-bdd\serenity-reports\3.5.1\serenity-reports-3.5.1.jar;C:\Users\VICTUS\.m2\repository\net\serenity-bdd\serenity-stats\3.5.1\serenity-stats-3.5.1.jar;C:\Users\VICTUS\.m2\repository\net\serenity-bdd\serenity-reports-configuration\3.5.1\serenity-reports-configuration-3.5.1.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-all\0.34.30\flexmark-all-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark\0.34.30\flexmark-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-abbreviation\0.34.30\flexmark-ext-abbreviation-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-admonition\0.34.30\flexmark-ext-admonition-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-anchorlink\0.34.30\flexmark-ext-anchorlink-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-aside\0.34.30\flexmark-ext-aside-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-attributes\0.34.30\flexmark-ext-attributes-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-autolink\0.34.30\flexmark-ext-autolink-0.34.30.jar;C:\Users\VICTUS\.m2\repository\org\nibor\autolink\autolink\0.6.0\autolink-0.6.0.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-definition\0.34.30\flexmark-ext-definition-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-emoji\0.34.30\flexmark-ext-emoji-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-enumerated-reference\0.34.30\flexmark-ext-enumerated-reference-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-escaped-character\0.34.30\flexmark-ext-escaped-character-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-footnotes\0.34.30\flexmark-ext-footnotes-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-issues\0.34.30\flexmark-ext-gfm-issues-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-strikethrough\0.34.30\flexmark-ext-gfm-strikethrough-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tables\0.34.30\flexmark-ext-gfm-tables-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tasklist\0.34.30\flexmark-ext-gfm-tasklist-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-users\0.34.30\flexmark-ext-gfm-users-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gitlab\0.34.30\flexmark-ext-gitlab-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-front-matter\0.34.30\flexmark-ext-jekyll-front-matter-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-tag\0.34.30\flexmark-ext-jekyll-tag-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-media-tags\0.34.30\flexmark-ext-media-tags-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-test-util\0.34.30\flexmark-test-util-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-ins\0.34.30\flexmark-ext-ins-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-xwiki-macros\0.34.30\flexmark-ext-xwiki-macros-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-superscript\0.34.30\flexmark-ext-superscript-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-tables\0.34.30\flexmark-ext-tables-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-toc\0.34.30\flexmark-ext-toc-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-typographic\0.34.30\flexmark-ext-typographic-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-wikilink\0.34.30\flexmark-ext-wikilink-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-yaml-front-matter\0.34.30\flexmark-ext-yaml-front-matter-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-youtube-embedded\0.34.30\flexmark-ext-youtube-embedded-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-formatter\0.34.30\flexmark-formatter-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-html-parser\0.34.30\flexmark-html-parser-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-jira-converter\0.34.30\flexmark-jira-converter-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-pdf-converter\0.34.30\flexmark-pdf-converter-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\openhtmltopdf\openhtmltopdf-core\0.0.1-RC13\openhtmltopdf-core-0.0.1-RC13.jar;C:\Users\VICTUS\.m2\repository\com\openhtmltopdf\openhtmltopdf-pdfbox\0.0.1-RC13\openhtmltopdf-pdfbox-0.0.1-RC13.jar;C:\Users\VICTUS\.m2\repository\org\apache\pdfbox\pdfbox\2.0.8\pdfbox-2.0.8.jar;C:\Users\VICTUS\.m2\repository\org\apache\pdfbox\fontbox\2.0.8\fontbox-2.0.8.jar;C:\Users\VICTUS\.m2\repository\org\apache\pdfbox\xmpbox\2.0.8\xmpbox-2.0.8.jar;C:\Users\VICTUS\.m2\repository\de\rototor\pdfbox\graphics2d\0.12\graphics2d-0.12.jar;C:\Users\VICTUS\.m2\repository\com\openhtmltopdf\openhtmltopdf-rtl-support\0.0.1-RC13\openhtmltopdf-rtl-support-0.0.1-RC13.jar;C:\Users\VICTUS\.m2\repository\com\ibm\icu\icu4j\59.1\icu4j-59.1.jar;C:\Users\VICTUS\.m2\repository\com\openhtmltopdf\openhtmltopdf-jsoup-dom-converter\0.0.1-RC13\openhtmltopdf-jsoup-dom-converter-0.0.1-RC13.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-profile-pegdown\0.34.30\flexmark-profile-pegdown-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-util\0.34.30\flexmark-util-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-youtrack-converter\0.34.30\flexmark-youtrack-converter-0.34.30.jar;C:\Users\VICTUS\.m2\repository\es\nitaur\markdown\txtmark\0.16\txtmark-0.16.jar;C:\Users\VICTUS\.m2\repository\net\serenity-bdd\serenity-report-resources\3.5.1\serenity-report-resources-3.5.1.jar;C:\Users\VICTUS\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\VICTUS\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.4\jackson-core-2.13.4.jar;C:\Users\VICTUS\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.4\jackson-databind-2.13.4.jar;C:\Users\VICTUS\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.4\jackson-annotations-2.13.4.jar;C:\Users\VICTUS\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\VICTUS\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\VICTUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\VICTUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\VICTUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-java\4.7.1\selenium-java-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v106\4.7.1\selenium-devtools-v106-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v107\4.7.1\selenium-devtools-v107-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.7.1\selenium-devtools-v108-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.7.1\selenium-devtools-v85-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.7.1\selenium-remote-driver-4.7.1.jar;C:\Users\VICTUS\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-buffer\4.1.84.Final\netty-buffer-4.1.84.Final.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-codec-http\4.1.84.Final\netty-codec-http-4.1.84.Final.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-codec\4.1.84.Final\netty-codec-4.1.84.Final.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-handler\4.1.84.Final\netty-handler-4.1.84.Final.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-common\4.1.84.Final\netty-common-4.1.84.Final.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.84.Final\netty-transport-classes-epoll-4.1.84.Final.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.84.Final\netty-transport-classes-kqueue-4.1.84.Final.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-transport-native-epoll\4.1.84.Final\netty-transport-native-epoll-4.1.84.Final.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.84.Final\netty-transport-native-kqueue-4.1.84.Final.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.84.Final\netty-transport-native-unix-common-4.1.84.Final.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-transport\4.1.84.Final\netty-transport-4.1.84.Final.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-resolver\4.1.84.Final\netty-resolver-4.1.84.Final.jar;C:\Users\VICTUS\.m2\repository\io\opentelemetry\opentelemetry-api\1.19.0\opentelemetry-api-1.19.0.jar;C:\Users\VICTUS\.m2\repository\io\opentelemetry\opentelemetry-context\1.19.0\opentelemetry-context-1.19.0.jar;C:\Users\VICTUS\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.19.0\opentelemetry-exporter-logging-1.19.0.jar;C:\Users\VICTUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.19.0\opentelemetry-sdk-metrics-1.19.0.jar;C:\Users\VICTUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.19.0-alpha\opentelemetry-sdk-logs-1.19.0-alpha.jar;C:\Users\VICTUS\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.19.0-alpha\opentelemetry-api-logs-1.19.0-alpha.jar;C:\Users\VICTUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.19.0\opentelemetry-sdk-common-1.19.0.jar;C:\Users\VICTUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.19.0\opentelemetry-sdk-extension-autoconfigure-spi-1.19.0.jar;C:\Users\VICTUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.19.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha.jar;C:\Users\VICTUS\.m2\repository\io\opentelemetry\opentelemetry-exporter-common\1.19.0\opentelemetry-exporter-common-1.19.0.jar;C:\Users\VICTUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.19.0\opentelemetry-sdk-trace-1.19.0.jar;C:\Users\VICTUS\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.19.0\opentelemetry-sdk-1.19.0.jar;C:\Users\VICTUS\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.19.0-alpha\opentelemetry-semconv-1.19.0-alpha.jar;C:\Users\VICTUS\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\VICTUS\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\VICTUS\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\VICTUS\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\VICTUS\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\VICTUS\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.7.1\selenium-manager-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.7.1\selenium-safari-driver-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-api\4.7.1\selenium-api-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-support\4.7.1\selenium-support-4.7.1.jar;C:\Users\VICTUS\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\VICTUS\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\VICTUS\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-json\4.7.1\selenium-json-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.7.1\selenium-chrome-driver-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.7.1\selenium-chromium-driver-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.7.1\selenium-firefox-driver-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-http\4.7.1\selenium-http-4.7.1.jar;C:\Users\VICTUS\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.7.1\selenium-edge-driver-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.7.1\selenium-ie-driver-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\VICTUS\.m2\repository\io\appium\java-client\8.3.0\java-client-8.3.0.jar;C:\Users\VICTUS\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar;C:\Users\VICTUS\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\VICTUS\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\VICTUS\.m2\repository\net\sf\opencsv\opencsv\2.0\opencsv-2.0.jar;C:\Users\VICTUS\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\VICTUS\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\VICTUS\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\VICTUS\.m2\repository\org\fluentlenium\fluentlenium-core\0.10.2\fluentlenium-core-0.10.2.jar;C:\Users\VICTUS\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.0\webdrivermanager-5.3.0.jar;C:\Users\VICTUS\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\VICTUS\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\VICTUS\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\VICTUS\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\VICTUS\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\VICTUS\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\VICTUS\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\VICTUS\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\VICTUS\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\VICTUS\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\VICTUS\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\VICTUS\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\VICTUS\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\VICTUS\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\VICTUS\.m2\repository\com\jhlabs\filters\2.0.235\filters-2.0.235.jar;C:\Users\VICTUS\.m2\repository\com\paulhammant\ngwebdriver\1.1.6\ngwebdriver-1.1.6.jar;C:\Users\VICTUS\.m2\repository\joda-time\joda-time\2.8.2\joda-time-2.8.2.jar;C:\Users\VICTUS\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\VICTUS\.m2\repository\com\google\jimfs\jimfs\1.2\jimfs-1.2.jar;C:\Users\VICTUS\.m2\repository\org\mockito\mockito-core\3.3.3\mockito-core-3.3.3.jar;C:\Users\VICTUS\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\VICTUS\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\VICTUS\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar;C:\Users\VICTUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\VICTUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\VICTUS\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\VICTUS\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\VICTUS\.m2\repository\net\serenity-bdd\serenity-rest-assured\3.5.1\serenity-rest-assured-3.5.1.jar;C:\Users\VICTUS\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\Users\VICTUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\VICTUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\VICTUS\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\Users\VICTUS\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\Users\VICTUS\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\Users\VICTUS\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\VICTUS\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\VICTUS\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\VICTUS\.m2\repository\net\serenity-bdd\serenity-cucumber\3.5.1\serenity-cucumber-3.5.1.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\cucumber-core\7.8.1\cucumber-core-7.8.1.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\cucumber-gherkin\7.8.1\cucumber-gherkin-7.8.1.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.8.1\cucumber-gherkin-messages-7.8.1.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\gherkin\24.0.0\gherkin-24.0.0.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\messages\19.1.4\messages-19.1.4.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\datatable\7.8.1\datatable-7.8.1.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\cucumber-plugin\7.8.1\cucumber-plugin-7.8.1.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\docstring\7.8.1\docstring-7.8.1.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\html-formatter\20.1.0\html-formatter-20.1.0.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\cucumber-java\7.8.1\cucumber-java-7.8.1.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\cucumber-junit\7.8.1\cucumber-junit-7.8.1.jar;C:\Users\VICTUS\.m2\repository\org\apache\commons\commons-csv\1.5\commons-csv-1.5.jar;C:\Users\VICTUS\.m2\repository\net\serenity-bdd\serenity-screenplay\3.5.1\serenity-screenplay-3.5.1.jar;C:\Users\VICTUS\.m2\repository\net\serenity-bdd\serenity-screenplay-webdriver\3.5.1\serenity-screenplay-webdriver-3.5.1.jar;C:\Users\VICTUS\.m2\repository\net\serenity-bdd\serenity-ensure\3.5.1\serenity-ensure-3.5.1.jar;C:\Users\VICTUS\.m2\repository\net\serenity-bdd\serenity-junit\3.5.1\serenity-junit-3.5.1.jar;C:\Users\VICTUS\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.7.21\kotlin-stdlib-1.7.21.jar;C:\Users\VICTUS\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.7.21\kotlin-stdlib-common-1.7.21.jar;C:\Users\VICTUS\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\VICTUS\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.2\junit-platform-launcher-1.8.2.jar;C:\Users\VICTUS\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\VICTUS\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\VICTUS\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\VICTUS\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\VICTUS\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\VICTUS\.m2\repository\org\junit\vintage\junit-vintage-engine\5.8.2\junit-vintage-engine-5.8.2.jar;C:\Users\VICTUS\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\VICTUS\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\VICTUS\.m2\repository\ch\qos\logback\logback-classic\1.2.10\logback-classic-1.2.10.jar;C:\Users\VICTUS\.m2\repository\ch\qos\logback\logback-core\1.2.10\logback-core-1.2.10.jar;C:\Users\VICTUS\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\VICTUS\.m2\repository\org\assertj\assertj-core\3.23.1\assertj-core-3.23.1.jar;C:\Users\VICTUS\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\VICTUS\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\VICTUS"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="jdk.module.path" value="C:\Users\VICTUS\IdeaProjects\RestAssuredCapstoneProject\target\RestAssuredCapstoneProject-1.0-SNAPSHOT.jar"/>
+    <property name="java.version.date" value="2022-04-22"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.3.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\VICTUS\IdeaProjects\RestAssuredCapstoneProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\VICTUS\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M5\surefire-booter-3.0.0-M5.jar;C:\Users\VICTUS\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M5\surefire-api-3.0.0-M5.jar;C:\Users\VICTUS\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M5\surefire-logger-api-3.0.0-M5.jar;C:\Users\VICTUS\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M4\surefire-shared-utils-3.0.0-M4.jar;C:\Users\VICTUS\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M5\surefire-extensions-spi-3.0.0-M5.jar;C:\Users\VICTUS\IdeaProjects\RestAssuredCapstoneProject\target\test-classes;C:\Users\VICTUS\.m2\repository\net\serenity-bdd\serenity-core\3.5.1\serenity-core-3.5.1.jar;C:\Users\VICTUS\.m2\repository\net\serenity-bdd\serenity-model\3.5.1\serenity-model-3.5.1.jar;C:\Users\VICTUS\.m2\repository\org\apache\commons\commons-text\1.10.0\commons-text-1.10.0.jar;C:\Users\VICTUS\.m2\repository\commons-net\commons-net\3.8.0\commons-net-3.8.0.jar;C:\Users\VICTUS\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\VICTUS\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\VICTUS\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\VICTUS\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\VICTUS\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\VICTUS\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\VICTUS\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\VICTUS\.m2\repository\com\google\inject\guice\5.1.0\guice-5.1.0.jar;C:\Users\VICTUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\VICTUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\VICTUS\.m2\repository\org\jsoup\jsoup\1.14.3\jsoup-1.14.3.jar;C:\Users\VICTUS\.m2\repository\com\thoughtworks\xstream\xstream\1.4.19\xstream-1.4.19.jar;C:\Users\VICTUS\.m2\repository\io\github\x-stream\mxparser\1.2.2\mxparser-1.2.2.jar;C:\Users\VICTUS\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\VICTUS\.m2\repository\com\typesafe\config\1.4.2\config-1.4.2.jar;C:\Users\VICTUS\.m2\repository\org\imgscalr\imgscalr-lib\4.2\imgscalr-lib-4.2.jar;C:\Users\VICTUS\.m2\repository\org\awaitility\awaitility\4.2.0\awaitility-4.2.0.jar;C:\Users\VICTUS\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\VICTUS\.m2\repository\io\github\classgraph\classgraph\4.8.138\classgraph-4.8.138.jar;C:\Users\VICTUS\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\VICTUS\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.18\byte-buddy-agent-1.12.18.jar;C:\Users\VICTUS\.m2\repository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;C:\Users\VICTUS\.m2\repository\net\serenity-bdd\serenity-reports\3.5.1\serenity-reports-3.5.1.jar;C:\Users\VICTUS\.m2\repository\net\serenity-bdd\serenity-stats\3.5.1\serenity-stats-3.5.1.jar;C:\Users\VICTUS\.m2\repository\net\serenity-bdd\serenity-reports-configuration\3.5.1\serenity-reports-configuration-3.5.1.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-all\0.34.30\flexmark-all-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark\0.34.30\flexmark-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-abbreviation\0.34.30\flexmark-ext-abbreviation-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-admonition\0.34.30\flexmark-ext-admonition-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-anchorlink\0.34.30\flexmark-ext-anchorlink-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-aside\0.34.30\flexmark-ext-aside-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-attributes\0.34.30\flexmark-ext-attributes-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-autolink\0.34.30\flexmark-ext-autolink-0.34.30.jar;C:\Users\VICTUS\.m2\repository\org\nibor\autolink\autolink\0.6.0\autolink-0.6.0.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-definition\0.34.30\flexmark-ext-definition-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-emoji\0.34.30\flexmark-ext-emoji-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-enumerated-reference\0.34.30\flexmark-ext-enumerated-reference-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-escaped-character\0.34.30\flexmark-ext-escaped-character-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-footnotes\0.34.30\flexmark-ext-footnotes-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-issues\0.34.30\flexmark-ext-gfm-issues-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-strikethrough\0.34.30\flexmark-ext-gfm-strikethrough-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tables\0.34.30\flexmark-ext-gfm-tables-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tasklist\0.34.30\flexmark-ext-gfm-tasklist-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-users\0.34.30\flexmark-ext-gfm-users-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gitlab\0.34.30\flexmark-ext-gitlab-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-front-matter\0.34.30\flexmark-ext-jekyll-front-matter-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-tag\0.34.30\flexmark-ext-jekyll-tag-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-media-tags\0.34.30\flexmark-ext-media-tags-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-test-util\0.34.30\flexmark-test-util-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-ins\0.34.30\flexmark-ext-ins-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-xwiki-macros\0.34.30\flexmark-ext-xwiki-macros-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-superscript\0.34.30\flexmark-ext-superscript-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-tables\0.34.30\flexmark-ext-tables-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-toc\0.34.30\flexmark-ext-toc-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-typographic\0.34.30\flexmark-ext-typographic-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-wikilink\0.34.30\flexmark-ext-wikilink-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-yaml-front-matter\0.34.30\flexmark-ext-yaml-front-matter-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-youtube-embedded\0.34.30\flexmark-ext-youtube-embedded-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-formatter\0.34.30\flexmark-formatter-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-html-parser\0.34.30\flexmark-html-parser-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-jira-converter\0.34.30\flexmark-jira-converter-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-pdf-converter\0.34.30\flexmark-pdf-converter-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\openhtmltopdf\openhtmltopdf-core\0.0.1-RC13\openhtmltopdf-core-0.0.1-RC13.jar;C:\Users\VICTUS\.m2\repository\com\openhtmltopdf\openhtmltopdf-pdfbox\0.0.1-RC13\openhtmltopdf-pdfbox-0.0.1-RC13.jar;C:\Users\VICTUS\.m2\repository\org\apache\pdfbox\pdfbox\2.0.8\pdfbox-2.0.8.jar;C:\Users\VICTUS\.m2\repository\org\apache\pdfbox\fontbox\2.0.8\fontbox-2.0.8.jar;C:\Users\VICTUS\.m2\repository\org\apache\pdfbox\xmpbox\2.0.8\xmpbox-2.0.8.jar;C:\Users\VICTUS\.m2\repository\de\rototor\pdfbox\graphics2d\0.12\graphics2d-0.12.jar;C:\Users\VICTUS\.m2\repository\com\openhtmltopdf\openhtmltopdf-rtl-support\0.0.1-RC13\openhtmltopdf-rtl-support-0.0.1-RC13.jar;C:\Users\VICTUS\.m2\repository\com\ibm\icu\icu4j\59.1\icu4j-59.1.jar;C:\Users\VICTUS\.m2\repository\com\openhtmltopdf\openhtmltopdf-jsoup-dom-converter\0.0.1-RC13\openhtmltopdf-jsoup-dom-converter-0.0.1-RC13.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-profile-pegdown\0.34.30\flexmark-profile-pegdown-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-util\0.34.30\flexmark-util-0.34.30.jar;C:\Users\VICTUS\.m2\repository\com\vladsch\flexmark\flexmark-youtrack-converter\0.34.30\flexmark-youtrack-converter-0.34.30.jar;C:\Users\VICTUS\.m2\repository\es\nitaur\markdown\txtmark\0.16\txtmark-0.16.jar;C:\Users\VICTUS\.m2\repository\net\serenity-bdd\serenity-report-resources\3.5.1\serenity-report-resources-3.5.1.jar;C:\Users\VICTUS\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\VICTUS\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.4\jackson-core-2.13.4.jar;C:\Users\VICTUS\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.4\jackson-databind-2.13.4.jar;C:\Users\VICTUS\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.4\jackson-annotations-2.13.4.jar;C:\Users\VICTUS\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\VICTUS\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\VICTUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\VICTUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\VICTUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-java\4.7.1\selenium-java-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v106\4.7.1\selenium-devtools-v106-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v107\4.7.1\selenium-devtools-v107-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.7.1\selenium-devtools-v108-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.7.1\selenium-devtools-v85-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.7.1\selenium-remote-driver-4.7.1.jar;C:\Users\VICTUS\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-buffer\4.1.84.Final\netty-buffer-4.1.84.Final.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-codec-http\4.1.84.Final\netty-codec-http-4.1.84.Final.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-codec\4.1.84.Final\netty-codec-4.1.84.Final.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-handler\4.1.84.Final\netty-handler-4.1.84.Final.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-common\4.1.84.Final\netty-common-4.1.84.Final.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.84.Final\netty-transport-classes-epoll-4.1.84.Final.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.84.Final\netty-transport-classes-kqueue-4.1.84.Final.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-transport-native-epoll\4.1.84.Final\netty-transport-native-epoll-4.1.84.Final.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.84.Final\netty-transport-native-kqueue-4.1.84.Final.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.84.Final\netty-transport-native-unix-common-4.1.84.Final.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-transport\4.1.84.Final\netty-transport-4.1.84.Final.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-resolver\4.1.84.Final\netty-resolver-4.1.84.Final.jar;C:\Users\VICTUS\.m2\repository\io\opentelemetry\opentelemetry-api\1.19.0\opentelemetry-api-1.19.0.jar;C:\Users\VICTUS\.m2\repository\io\opentelemetry\opentelemetry-context\1.19.0\opentelemetry-context-1.19.0.jar;C:\Users\VICTUS\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.19.0\opentelemetry-exporter-logging-1.19.0.jar;C:\Users\VICTUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.19.0\opentelemetry-sdk-metrics-1.19.0.jar;C:\Users\VICTUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.19.0-alpha\opentelemetry-sdk-logs-1.19.0-alpha.jar;C:\Users\VICTUS\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.19.0-alpha\opentelemetry-api-logs-1.19.0-alpha.jar;C:\Users\VICTUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.19.0\opentelemetry-sdk-common-1.19.0.jar;C:\Users\VICTUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.19.0\opentelemetry-sdk-extension-autoconfigure-spi-1.19.0.jar;C:\Users\VICTUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.19.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha.jar;C:\Users\VICTUS\.m2\repository\io\opentelemetry\opentelemetry-exporter-common\1.19.0\opentelemetry-exporter-common-1.19.0.jar;C:\Users\VICTUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.19.0\opentelemetry-sdk-trace-1.19.0.jar;C:\Users\VICTUS\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.19.0\opentelemetry-sdk-1.19.0.jar;C:\Users\VICTUS\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.19.0-alpha\opentelemetry-semconv-1.19.0-alpha.jar;C:\Users\VICTUS\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\VICTUS\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\VICTUS\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\VICTUS\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\VICTUS\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\VICTUS\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\VICTUS\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.7.1\selenium-manager-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.7.1\selenium-safari-driver-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-api\4.7.1\selenium-api-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-support\4.7.1\selenium-support-4.7.1.jar;C:\Users\VICTUS\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\VICTUS\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\VICTUS\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-json\4.7.1\selenium-json-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.7.1\selenium-chrome-driver-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.7.1\selenium-chromium-driver-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.7.1\selenium-firefox-driver-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-http\4.7.1\selenium-http-4.7.1.jar;C:\Users\VICTUS\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.7.1\selenium-edge-driver-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.7.1\selenium-ie-driver-4.7.1.jar;C:\Users\VICTUS\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\VICTUS\.m2\repository\io\appium\java-client\8.3.0\java-client-8.3.0.jar;C:\Users\VICTUS\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar;C:\Users\VICTUS\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\VICTUS\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\VICTUS\.m2\repository\net\sf\opencsv\opencsv\2.0\opencsv-2.0.jar;C:\Users\VICTUS\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\VICTUS\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\VICTUS\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\VICTUS\.m2\repository\org\fluentlenium\fluentlenium-core\0.10.2\fluentlenium-core-0.10.2.jar;C:\Users\VICTUS\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.0\webdrivermanager-5.3.0.jar;C:\Users\VICTUS\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\VICTUS\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\VICTUS\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\VICTUS\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\VICTUS\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\VICTUS\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\VICTUS\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\VICTUS\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\VICTUS\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\VICTUS\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\VICTUS\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\VICTUS\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\VICTUS\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\VICTUS\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\VICTUS\.m2\repository\com\jhlabs\filters\2.0.235\filters-2.0.235.jar;C:\Users\VICTUS\.m2\repository\com\paulhammant\ngwebdriver\1.1.6\ngwebdriver-1.1.6.jar;C:\Users\VICTUS\.m2\repository\joda-time\joda-time\2.8.2\joda-time-2.8.2.jar;C:\Users\VICTUS\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\VICTUS\.m2\repository\com\google\jimfs\jimfs\1.2\jimfs-1.2.jar;C:\Users\VICTUS\.m2\repository\org\mockito\mockito-core\3.3.3\mockito-core-3.3.3.jar;C:\Users\VICTUS\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\VICTUS\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\VICTUS\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar;C:\Users\VICTUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\VICTUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\VICTUS\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\VICTUS\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\VICTUS\.m2\repository\net\serenity-bdd\serenity-rest-assured\3.5.1\serenity-rest-assured-3.5.1.jar;C:\Users\VICTUS\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\Users\VICTUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\VICTUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\VICTUS\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\Users\VICTUS\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\Users\VICTUS\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\Users\VICTUS\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\VICTUS\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\VICTUS\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\VICTUS\.m2\repository\net\serenity-bdd\serenity-cucumber\3.5.1\serenity-cucumber-3.5.1.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\cucumber-core\7.8.1\cucumber-core-7.8.1.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\cucumber-gherkin\7.8.1\cucumber-gherkin-7.8.1.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.8.1\cucumber-gherkin-messages-7.8.1.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\gherkin\24.0.0\gherkin-24.0.0.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\messages\19.1.4\messages-19.1.4.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\datatable\7.8.1\datatable-7.8.1.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\cucumber-plugin\7.8.1\cucumber-plugin-7.8.1.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\docstring\7.8.1\docstring-7.8.1.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\html-formatter\20.1.0\html-formatter-20.1.0.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\cucumber-java\7.8.1\cucumber-java-7.8.1.jar;C:\Users\VICTUS\.m2\repository\io\cucumber\cucumber-junit\7.8.1\cucumber-junit-7.8.1.jar;C:\Users\VICTUS\.m2\repository\org\apache\commons\commons-csv\1.5\commons-csv-1.5.jar;C:\Users\VICTUS\.m2\repository\net\serenity-bdd\serenity-screenplay\3.5.1\serenity-screenplay-3.5.1.jar;C:\Users\VICTUS\.m2\repository\net\serenity-bdd\serenity-screenplay-webdriver\3.5.1\serenity-screenplay-webdriver-3.5.1.jar;C:\Users\VICTUS\.m2\repository\net\serenity-bdd\serenity-ensure\3.5.1\serenity-ensure-3.5.1.jar;C:\Users\VICTUS\.m2\repository\net\serenity-bdd\serenity-junit\3.5.1\serenity-junit-3.5.1.jar;C:\Users\VICTUS\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.7.21\kotlin-stdlib-1.7.21.jar;C:\Users\VICTUS\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.7.21\kotlin-stdlib-common-1.7.21.jar;C:\Users\VICTUS\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\VICTUS\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.2\junit-platform-launcher-1.8.2.jar;C:\Users\VICTUS\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\VICTUS\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\VICTUS\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\VICTUS\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\VICTUS\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\VICTUS\.m2\repository\org\junit\vintage\junit-vintage-engine\5.8.2\junit-vintage-engine-5.8.2.jar;C:\Users\VICTUS\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\VICTUS\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\VICTUS\.m2\repository\ch\qos\logback\logback-classic\1.2.10\logback-classic-1.2.10.jar;C:\Users\VICTUS\.m2\repository\ch\qos\logback\logback-core\1.2.10\logback-core-1.2.10.jar;C:\Users\VICTUS\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\VICTUS\.m2\repository\org\assertj\assertj-core\3.23.1\assertj-core-3.23.1.jar;C:\Users\VICTUS\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\VICTUS\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\VICTUS\.m2\repository\org\apache\maven\surefire\surefire-junit-platform\3.0.0-M5\surefire-junit-platform-3.0.0-M5.jar;C:\Users\VICTUS\.m2\repository\org\apache\maven\surefire\common-java5\3.0.0-M5\common-java5-3.0.0-M5.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.3.1+2-LTS-6"/>
+    <property name="user.name" value="VICTUS"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="webdriver.base.url" value=""/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\VICTUS\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\VICTUS\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.3.1"/>
+    <property name="user.dir" value="C:\Users\VICTUS\IdeaProjects\RestAssuredCapstoneProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.3.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python311\Scripts\;C:\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\apache-maven-3.9.0\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;C:\Users\VICTUS\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\VICTUS\AppData\Local\Programs\Python\Python310\;C:\Users\VICTUS\AppData\Local\Microsoft\WindowsApps;C:\Users\VICTUS\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\VICTUS\AppData\Roaming\Composer\vendor\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.1\bin;;C:\Users\VICTUS\AppData\Roaming\npm;C:\Users\VICTUS\AppData\Local\Android\sdk\platform-tools;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.3.1+2-LTS-6"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="PUT - As admin I have be able to approve an article" classname="ArticleAdmin" time="3.278">
+    <system-out><![CDATA[15:25:02.132 [main] DEBUG net.thucydides.core.guice.Injectors - Created injector for module net.thucydides.core.guice.ThucydidesModule
+15:25:02.317 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/VICTUS/IdeaProjects/RestAssuredCapstoneProject/src/test/resources/features/ArticleAdmin.feature
+15:25:02.446 [main] DEBUG net.thucydides.core.guice.Injectors - Created injector for module net.thucydides.core.guice.webdriver.WebDriverModule
+15:25:02.458 [main] INFO  - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+15:25:02.461 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@45e7c928
+15:25:02.463 [main] INFO  - Test Suite Started: Article admin
+15:25:02.472 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/VICTUS/IdeaProjects/RestAssuredCapstoneProject/src/test/resources/features/AuthAdmin.feature
+15:25:02.476 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@e7e038a8
+15:25:02.476 [main] INFO  - Test Suite Started: Auth admin
+15:25:02.477 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/VICTUS/IdeaProjects/RestAssuredCapstoneProject/src/test/resources/features/AuthUser.feature
+15:25:02.479 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@e2dc8d13
+15:25:02.479 [main] INFO  - Test Suite Started: Auth
+15:25:02.479 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/VICTUS/IdeaProjects/RestAssuredCapstoneProject/src/test/resources/features/GetDocIdUser.feature
+15:25:02.484 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@8f785b15
+15:25:02.484 [main] INFO  - Test Suite Started: Get doctor id user
+15:25:02.485 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/VICTUS/IdeaProjects/RestAssuredCapstoneProject/src/test/resources/features/SearchArticleUser.feature
+15:25:02.487 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@b75a3c73
+15:25:02.487 [main] INFO  - Test Suite Started: Search article
+15:25:02.487 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/VICTUS/IdeaProjects/RestAssuredCapstoneProject/src/test/resources/features/ArticleAdmin.feature
+15:25:02.489 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@45e7c928
+15:25:02.491 [main] INFO  - Test Suite Started: Article admin
+
+Scenario: PUT - As admin I have be able to approve an article &amp#27;[90m# src/test/resources/features/ArticleAdmin.feature:6&amp#27;[0m
+15:25:02.556 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/VICTUS/IdeaProjects/RestAssuredCapstoneProject/src/test/resources/features/ArticleAdmin.feature
+15:25:02.624 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+PUT - As admin I have be able to approve an article(articleadmin;put---as-admin-i-have-be-able-to-approve-an-article)
+--------------------------------------------------------------------------------
+15:25:02.979 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: ArticleAdminSteps.setPostApiEndpoints - I set PUT API endpoint
+15:25:02.980 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set PUT API endpoint
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set PUT API endpoint&amp#27;[0m                                &amp#27;[90m# starter.stepDefinition.ArticleAdminSteps.setPostApiEndpoints()&amp#27;[0m
+15:25:02.987 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: ArticleAdminSteps.sendPostHttpRequest - I send PUT Http Request
+15:25:04.163 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PosApproveArtc.sendPostHttpRequest - I set PUT API endpoint
+15:25:04.163 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set PUT API endpoint
+15:25:04.628 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://capstone-project.duckdns.org:8080
+15:25:04.986 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to capstone-project.duckdns.org:8080
+15:25:05.199 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+15:25:05.199 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+15:25:05.199 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+15:25:05.200 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+15:25:05.200 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: PUT /admin/articles/21 HTTP/1.1
+15:25:05.200 [main] DEBUG org.apache.http.wire -  >> "PUT /admin/articles/21 HTTP/1.1[\r][\n]"
+15:25:05.200 [main] DEBUG org.apache.http.wire -  >> "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6MSwiYXV0aG9yaXplZCI6dHJ1ZSwiZXhwIjoxNjg3ODQzOTg1fQ.LasIIXHip-iUUTecrsXhszZfnycHm30wwWneOG_MDWc[\r][\n]"
+15:25:05.201 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+15:25:05.201 [main] DEBUG org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+15:25:05.201 [main] DEBUG org.apache.http.wire -  >> "Content-Length: 22[\r][\n]"
+15:25:05.201 [main] DEBUG org.apache.http.wire -  >> "Host: capstone-project.duckdns.org:8080[\r][\n]"
+15:25:05.201 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+15:25:05.201 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.3.1)[\r][\n]"
+15:25:05.201 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+15:25:05.201 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+15:25:05.201 [main] DEBUG org.apache.http.headers - >> PUT /admin/articles/21 HTTP/1.1
+15:25:05.201 [main] DEBUG org.apache.http.headers - >> Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6MSwiYXV0aG9yaXplZCI6dHJ1ZSwiZXhwIjoxNjg3ODQzOTg1fQ.LasIIXHip-iUUTecrsXhszZfnycHm30wwWneOG_MDWc
+15:25:05.201 [main] DEBUG org.apache.http.headers - >> Accept: */*
+15:25:05.201 [main] DEBUG org.apache.http.headers - >> Content-Type: application/json
+15:25:05.201 [main] DEBUG org.apache.http.headers - >> Content-Length: 22
+15:25:05.201 [main] DEBUG org.apache.http.headers - >> Host: capstone-project.duckdns.org:8080
+15:25:05.201 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+15:25:05.201 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.3.1)
+15:25:05.201 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+15:25:05.201 [main] DEBUG org.apache.http.wire -  >> "{"status":"disetujui"}"
+15:25:05.271 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+15:25:05.272 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+15:25:05.272 [main] DEBUG org.apache.http.wire -  << "Vary: Origin[\r][\n]"
+15:25:05.272 [main] DEBUG org.apache.http.wire -  << "Date: Mon, 26 Jun 2023 08:25:11 GMT[\r][\n]"
+15:25:05.272 [main] DEBUG org.apache.http.wire -  << "Content-Length: 37[\r][\n]"
+15:25:05.272 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+15:25:05.272 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+15:25:05.272 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+15:25:05.272 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=UTF-8
+15:25:05.272 [main] DEBUG org.apache.http.headers - << Vary: Origin
+15:25:05.272 [main] DEBUG org.apache.http.headers - << Date: Mon, 26 Jun 2023 08:25:11 GMT
+15:25:05.272 [main] DEBUG org.apache.http.headers - << Content-Length: 37
+15:25:05.274 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+15:25:05.277 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=UTF-8
+15:25:05.277 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+15:25:05.301 [main] DEBUG org.apache.http.wire -  << "{"message":"success manage article"}[\n]"
+15:25:05.302 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@3bdbf8d3
+15:25:05.302 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+15:25:05.306 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send PUT Http Request
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send PUT Http Request&amp#27;[0m                                &amp#27;[90m# starter.stepDefinition.ArticleAdminSteps.sendPostHttpRequest()&amp#27;[0m
+15:25:05.308 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: ArticleAdminSteps.receiveValidHttp200 - I receive valid Http response code is 200
+15:25:05.323 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid Http response code is 200
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI receive valid Http response code is 200&amp#27;[0m              &amp#27;[90m# starter.stepDefinition.ArticleAdminSteps.receiveValidHttp200()&amp#27;[0m
+15:25:05.326 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: ArticleAdminSteps.receiveValidDataForApprovedArticle - I receive valid data for approved article
+15:25:05.763 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid data for approved article
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI receive valid data for approved article&amp#27;[0m               &amp#27;[90m# starter.stepDefinition.ArticleAdminSteps.receiveValidDataForApprovedArticle()&amp#27;[0m
+15:25:05.768 [main] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+PUT - As admin I have be able to approve an article
+----------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="PUT - As admin I have be able prevented to approve an article" classname="ArticleAdmin" time="0.248">
+    <system-out><![CDATA[
+Scenario: PUT - As admin I have be able prevented to approve an article &amp#27;[90m# src/test/resources/features/ArticleAdmin.feature:12&amp#27;[0m
+15:25:05.778 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/VICTUS/IdeaProjects/RestAssuredCapstoneProject/src/test/resources/features/ArticleAdmin.feature
+15:25:05.780 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+PUT - As admin I have be able prevented to approve an article(articleadmin;put---as-admin-i-have-be-able-prevented-to-approve-an-article)
+--------------------------------------------------------------------------------
+15:25:05.801 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: ArticleAdminSteps.setPostApiEndpointsNeg - I set PUT API Endpoint
+15:25:05.801 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set PUT API Endpoint
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set PUT API Endpoint&amp#27;[0m                                          &amp#27;[90m# starter.stepDefinition.ArticleAdminSteps.setPostApiEndpointsNeg()&amp#27;[0m
+15:25:05.804 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: ArticleAdminSteps.sendPostHttpRequestNeg - I send PUT Http request
+15:25:05.806 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: NegApproveArtc.sendPostHttpRequestNeg - I set PUT API Endpoint
+15:25:05.806 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set PUT API Endpoint
+15:25:05.821 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://capstone-project.duckdns.org:8080
+15:25:05.821 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to capstone-project.duckdns.org:8080
+15:25:05.936 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+15:25:05.936 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+15:25:05.936 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+15:25:05.936 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+15:25:05.936 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: PUT /admin/articles/abc HTTP/1.1
+15:25:05.936 [main] DEBUG org.apache.http.wire -  >> "PUT /admin/articles/abc HTTP/1.1[\r][\n]"
+15:25:05.936 [main] DEBUG org.apache.http.wire -  >> "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6MSwiYXV0aG9yaXplZCI6dHJ1ZSwiZXhwIjoxNjg3ODQzOTg1fQ.LasIIXHip-iUUTecrsXhszZfnycHm30wwWneOG_MDWc[\r][\n]"
+15:25:05.936 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+15:25:05.936 [main] DEBUG org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+15:25:05.936 [main] DEBUG org.apache.http.wire -  >> "Content-Length: 22[\r][\n]"
+15:25:05.936 [main] DEBUG org.apache.http.wire -  >> "Host: capstone-project.duckdns.org:8080[\r][\n]"
+15:25:05.936 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+15:25:05.936 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.3.1)[\r][\n]"
+15:25:05.936 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+15:25:05.936 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+15:25:05.936 [main] DEBUG org.apache.http.headers - >> PUT /admin/articles/abc HTTP/1.1
+15:25:05.936 [main] DEBUG org.apache.http.headers - >> Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6MSwiYXV0aG9yaXplZCI6dHJ1ZSwiZXhwIjoxNjg3ODQzOTg1fQ.LasIIXHip-iUUTecrsXhszZfnycHm30wwWneOG_MDWc
+15:25:05.936 [main] DEBUG org.apache.http.headers - >> Accept: */*
+15:25:05.936 [main] DEBUG org.apache.http.headers - >> Content-Type: application/json
+15:25:05.936 [main] DEBUG org.apache.http.headers - >> Content-Length: 22
+15:25:05.936 [main] DEBUG org.apache.http.headers - >> Host: capstone-project.duckdns.org:8080
+15:25:05.936 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+15:25:05.936 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.3.1)
+15:25:05.936 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+15:25:05.936 [main] DEBUG org.apache.http.wire -  >> "{"status":"disetujui"}"
+15:25:05.997 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+15:25:05.997 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+15:25:05.997 [main] DEBUG org.apache.http.wire -  << "Vary: Origin[\r][\n]"
+15:25:05.997 [main] DEBUG org.apache.http.wire -  << "Date: Mon, 26 Jun 2023 08:25:12 GMT[\r][\n]"
+15:25:05.997 [main] DEBUG org.apache.http.wire -  << "Content-Length: 75[\r][\n]"
+15:25:05.997 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+15:25:05.997 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 500 Internal Server Error
+15:25:05.997 [main] DEBUG org.apache.http.headers - << HTTP/1.1 500 Internal Server Error
+15:25:05.997 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=UTF-8
+15:25:05.997 [main] DEBUG org.apache.http.headers - << Vary: Origin
+15:25:05.997 [main] DEBUG org.apache.http.headers - << Date: Mon, 26 Jun 2023 08:25:12 GMT
+15:25:05.997 [main] DEBUG org.apache.http.headers - << Content-Length: 75
+15:25:05.997 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+15:25:05.997 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=UTF-8
+15:25:05.997 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+15:25:05.999 [main] DEBUG org.apache.http.wire -  << "{"message":"Error 1292 (22007): Truncated incorrect INTEGER value: 'abc'"}[\n]"
+15:25:05.999 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@ea84346
+15:25:05.999 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+15:25:06.000 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send PUT Http request
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send PUT Http request&amp#27;[0m                                          &amp#27;[90m# starter.stepDefinition.ArticleAdminSteps.sendPostHttpRequestNeg()&amp#27;[0m
+15:25:06.003 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: ArticleAdminSteps.receiveValidHttp500Neg - I receive valid Http response code is 500
+15:25:06.003 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid Http response code is 500
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI receive valid Http response code is 500&amp#27;[0m                        &amp#27;[90m# starter.stepDefinition.ArticleAdminSteps.receiveValidHttp500Neg()&amp#27;[0m
+15:25:06.006 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: ArticleAdminSteps.receiveErrMessageApproveArticle - I receive error message and prevented to approve an article
+15:25:06.017 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive error message and prevented to approve an article
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI receive error message and prevented to approve an article&amp#27;[0m       &amp#27;[90m# starter.stepDefinition.ArticleAdminSteps.receiveErrMessageApproveArticle()&amp#27;[0m
+15:25:06.018 [main] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+PUT - As admin I have be able prevented to approve an article
+----------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="PUT - As admin I have be able to reject an article" classname="ArticleAdmin" time="0.187">
+    <system-out><![CDATA[
+Scenario: PUT - As admin I have be able to reject an article &amp#27;[90m# src/test/resources/features/ArticleAdmin.feature:18&amp#27;[0m
+15:25:06.032 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/VICTUS/IdeaProjects/RestAssuredCapstoneProject/src/test/resources/features/ArticleAdmin.feature
+15:25:06.033 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+PUT - As admin I have be able to reject an article(articleadmin;put---as-admin-i-have-be-able-to-reject-an-article)
+--------------------------------------------------------------------------------
+15:25:06.041 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: ArticleAdminSteps.setPostAPIEndpoints - I set PUT API endpoint
+15:25:06.041 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set PUT API endpoint
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI Set PUT API endpoint&amp#27;[0m                               &amp#27;[90m# starter.stepDefinition.ArticleAdminSteps.setPostAPIEndpoints()&amp#27;[0m
+15:25:06.043 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: ArticleAdminSteps.sendPostHTTPRequest - I send PUT Http Request
+15:25:06.044 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PosRejectArtc.sendPostHTTPRequest - I set PUT API endpoint
+15:25:06.044 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set PUT API endpoint
+15:25:06.057 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://capstone-project.duckdns.org:8080
+15:25:06.057 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to capstone-project.duckdns.org:8080
+15:25:06.140 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+15:25:06.140 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+15:25:06.140 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+15:25:06.140 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+15:25:06.140 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: PUT /admin/articles/21 HTTP/1.1
+15:25:06.141 [main] DEBUG org.apache.http.wire -  >> "PUT /admin/articles/21 HTTP/1.1[\r][\n]"
+15:25:06.141 [main] DEBUG org.apache.http.wire -  >> "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6MSwiYXV0aG9yaXplZCI6dHJ1ZSwiZXhwIjoxNjg3ODQzOTg1fQ.LasIIXHip-iUUTecrsXhszZfnycHm30wwWneOG_MDWc[\r][\n]"
+15:25:06.141 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+15:25:06.141 [main] DEBUG org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+15:25:06.141 [main] DEBUG org.apache.http.wire -  >> "Content-Length: 20[\r][\n]"
+15:25:06.141 [main] DEBUG org.apache.http.wire -  >> "Host: capstone-project.duckdns.org:8080[\r][\n]"
+15:25:06.141 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+15:25:06.141 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.3.1)[\r][\n]"
+15:25:06.141 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+15:25:06.141 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+15:25:06.141 [main] DEBUG org.apache.http.headers - >> PUT /admin/articles/21 HTTP/1.1
+15:25:06.141 [main] DEBUG org.apache.http.headers - >> Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6MSwiYXV0aG9yaXplZCI6dHJ1ZSwiZXhwIjoxNjg3ODQzOTg1fQ.LasIIXHip-iUUTecrsXhszZfnycHm30wwWneOG_MDWc
+15:25:06.141 [main] DEBUG org.apache.http.headers - >> Accept: */*
+15:25:06.141 [main] DEBUG org.apache.http.headers - >> Content-Type: application/json
+15:25:06.141 [main] DEBUG org.apache.http.headers - >> Content-Length: 20
+15:25:06.141 [main] DEBUG org.apache.http.headers - >> Host: capstone-project.duckdns.org:8080
+15:25:06.141 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+15:25:06.141 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.3.1)
+15:25:06.141 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+15:25:06.141 [main] DEBUG org.apache.http.wire -  >> "{"status":"ditolak"}"
+15:25:06.187 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+15:25:06.187 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+15:25:06.187 [main] DEBUG org.apache.http.wire -  << "Vary: Origin[\r][\n]"
+15:25:06.187 [main] DEBUG org.apache.http.wire -  << "Date: Mon, 26 Jun 2023 08:25:12 GMT[\r][\n]"
+15:25:06.187 [main] DEBUG org.apache.http.wire -  << "Content-Length: 37[\r][\n]"
+15:25:06.187 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+15:25:06.187 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+15:25:06.187 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+15:25:06.187 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=UTF-8
+15:25:06.187 [main] DEBUG org.apache.http.headers - << Vary: Origin
+15:25:06.187 [main] DEBUG org.apache.http.headers - << Date: Mon, 26 Jun 2023 08:25:12 GMT
+15:25:06.187 [main] DEBUG org.apache.http.headers - << Content-Length: 37
+15:25:06.187 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+15:25:06.187 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=UTF-8
+15:25:06.187 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+15:25:06.189 [main] DEBUG org.apache.http.wire -  << "{"message":"success manage article"}[\n]"
+15:25:06.189 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@612bb755
+15:25:06.189 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+15:25:06.190 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send PUT Http Request
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI Send PUT Http Request&amp#27;[0m                               &amp#27;[90m# starter.stepDefinition.ArticleAdminSteps.sendPostHTTPRequest()&amp#27;[0m
+15:25:06.193 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: ArticleAdminSteps.receiveValidHTTP200 - I receive valid Http response code is 200
+15:25:06.194 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid Http response code is 200
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI Receive valid Http response code is 200&amp#27;[0m             &amp#27;[90m# starter.stepDefinition.ArticleAdminSteps.receiveValidHTTP200()&amp#27;[0m
+15:25:06.197 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: ArticleAdminSteps.receiveValidDataForRejectedArticle - I receive valid data for approved article
+15:25:06.205 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid data for approved article
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI receive valid data for rejected article&amp#27;[0m              &amp#27;[90m# starter.stepDefinition.ArticleAdminSteps.receiveValidDataForRejectedArticle()&amp#27;[0m
+15:25:06.206 [main] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+PUT - As admin I have be able to reject an article
+----------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="PUT - As admin I have be able prevented to reject an article" classname="ArticleAdmin" time="0.243">
+    <system-out><![CDATA[
+Scenario: PUT - As admin I have be able prevented to reject an article &amp#27;[90m# src/test/resources/features/ArticleAdmin.feature:24&amp#27;[0m
+15:25:06.211 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/VICTUS/IdeaProjects/RestAssuredCapstoneProject/src/test/resources/features/ArticleAdmin.feature
+15:25:06.213 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+PUT - As admin I have be able prevented to reject an article(articleadmin;put---as-admin-i-have-be-able-prevented-to-reject-an-article)
+--------------------------------------------------------------------------------
+15:25:06.220 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: ArticleAdminSteps.setPostAPIEndpointsNeg - I Set PUT API Endpoint
+15:25:06.220 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I Set PUT API Endpoint
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI Set PUT API Endpoint&amp#27;[0m                                         &amp#27;[90m# starter.stepDefinition.ArticleAdminSteps.setPostAPIEndpointsNeg()&amp#27;[0m
+15:25:06.222 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: ArticleAdminSteps.sendPostHTTPRequestNeg - I Send PUT Http request
+15:25:06.225 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: NegRejectArtc.sendPostHTTPRequestNeg - I Set PUT API Endpoint
+15:25:06.225 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I Set PUT API Endpoint
+15:25:06.234 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://capstone-project.duckdns.org:8080
+15:25:06.234 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to capstone-project.duckdns.org:8080
+15:25:06.356 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+15:25:06.356 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+15:25:06.356 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+15:25:06.356 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+15:25:06.357 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: PUT /admin/articles/abc HTTP/1.1
+15:25:06.357 [main] DEBUG org.apache.http.wire -  >> "PUT /admin/articles/abc HTTP/1.1[\r][\n]"
+15:25:06.357 [main] DEBUG org.apache.http.wire -  >> "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6MSwiYXV0aG9yaXplZCI6dHJ1ZSwiZXhwIjoxNjg3ODQzOTg1fQ.LasIIXHip-iUUTecrsXhszZfnycHm30wwWneOG_MDWc[\r][\n]"
+15:25:06.357 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+15:25:06.357 [main] DEBUG org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+15:25:06.357 [main] DEBUG org.apache.http.wire -  >> "Content-Length: 20[\r][\n]"
+15:25:06.357 [main] DEBUG org.apache.http.wire -  >> "Host: capstone-project.duckdns.org:8080[\r][\n]"
+15:25:06.357 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+15:25:06.357 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.3.1)[\r][\n]"
+15:25:06.357 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+15:25:06.357 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+15:25:06.357 [main] DEBUG org.apache.http.headers - >> PUT /admin/articles/abc HTTP/1.1
+15:25:06.357 [main] DEBUG org.apache.http.headers - >> Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6MSwiYXV0aG9yaXplZCI6dHJ1ZSwiZXhwIjoxNjg3ODQzOTg1fQ.LasIIXHip-iUUTecrsXhszZfnycHm30wwWneOG_MDWc
+15:25:06.357 [main] DEBUG org.apache.http.headers - >> Accept: */*
+15:25:06.357 [main] DEBUG org.apache.http.headers - >> Content-Type: application/json
+15:25:06.357 [main] DEBUG org.apache.http.headers - >> Content-Length: 20
+15:25:06.357 [main] DEBUG org.apache.http.headers - >> Host: capstone-project.duckdns.org:8080
+15:25:06.357 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+15:25:06.357 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.3.1)
+15:25:06.357 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+15:25:06.357 [main] DEBUG org.apache.http.wire -  >> "{"status":"ditolak"}"
+15:25:06.436 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+15:25:06.436 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+15:25:06.436 [main] DEBUG org.apache.http.wire -  << "Vary: Origin[\r][\n]"
+15:25:06.436 [main] DEBUG org.apache.http.wire -  << "Date: Mon, 26 Jun 2023 08:25:12 GMT[\r][\n]"
+15:25:06.436 [main] DEBUG org.apache.http.wire -  << "Content-Length: 75[\r][\n]"
+15:25:06.436 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+15:25:06.436 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 500 Internal Server Error
+15:25:06.436 [main] DEBUG org.apache.http.headers - << HTTP/1.1 500 Internal Server Error
+15:25:06.436 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=UTF-8
+15:25:06.436 [main] DEBUG org.apache.http.headers - << Vary: Origin
+15:25:06.436 [main] DEBUG org.apache.http.headers - << Date: Mon, 26 Jun 2023 08:25:12 GMT
+15:25:06.436 [main] DEBUG org.apache.http.headers - << Content-Length: 75
+15:25:06.436 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+15:25:06.436 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=UTF-8
+15:25:06.436 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+15:25:06.437 [main] DEBUG org.apache.http.wire -  << "{"message":"Error 1292 (22007): Truncated incorrect INTEGER value: 'abc'"}[\n]"
+15:25:06.438 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4f9980e1
+15:25:06.438 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+15:25:06.438 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I Send PUT Http request
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI Send PUT Http request&amp#27;[0m                                         &amp#27;[90m# starter.stepDefinition.ArticleAdminSteps.sendPostHTTPRequestNeg()&amp#27;[0m
+15:25:06.440 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: ArticleAdminSteps.receiveValidHTTP500Neg - I Receive valid Http response code is 500
+15:25:06.440 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I Receive valid Http response code is 500
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI Receive valid Http response code is 500&amp#27;[0m                       &amp#27;[90m# starter.stepDefinition.ArticleAdminSteps.receiveValidHTTP500Neg()&amp#27;[0m
+15:25:06.442 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: ArticleAdminSteps.receiveErrorAndPreventedToReject - I receive error message and prevented to reject an article
+15:25:06.450 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive error message and prevented to reject an article
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI receive error message and prevented to reject an article&amp#27;[0m       &amp#27;[90m# starter.stepDefinition.ArticleAdminSteps.receiveErrorAndPreventedToReject()&amp#27;[0m
+15:25:06.451 [main] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+PUT - As admin I have be able prevented to reject an article
+----------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="POST - As admin I have be able to login to my own system" classname="AuthAdmin" time="0.265">
+    <system-out><![CDATA[15:25:06.453 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/VICTUS/IdeaProjects/RestAssuredCapstoneProject/src/test/resources/features/AuthAdmin.feature
+15:25:06.454 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@e7e038a8
+15:25:06.454 [main] INFO  - Test Suite Started: Auth admin
+
+Scenario: POST - As admin I have be able to login to my own system &amp#27;[90m# src/test/resources/features/AuthAdmin.feature:7&amp#27;[0m
+15:25:06.461 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/VICTUS/IdeaProjects/RestAssuredCapstoneProject/src/test/resources/features/AuthAdmin.feature
+15:25:06.461 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+POST - As admin I have be able to login to my own system(authadmin;post---as-admin-i-have-be-able-to-login-to-my-own-system)
+--------------------------------------------------------------------------------
+15:25:06.472 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AuthAdminSteps.setPostApiEndpoint - I set Post API Endpoint
+15:25:06.472 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set Post API Endpoint
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set Post API Endpoint&amp#27;[0m                                    &amp#27;[90m# starter.stepDefinition.AuthAdminSteps.setPostApiEndpoint()&amp#27;[0m
+15:25:06.474 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AuthAdminSteps.sendPostHTTPRequest - I send Post HTTP Request
+15:25:06.475 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PosLogAdmin.sendPostHttpRequest - I set Post API Endpoint
+15:25:06.475 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set Post API Endpoint
+15:25:06.486 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://capstone-project.duckdns.org:8080
+15:25:06.487 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to capstone-project.duckdns.org:8080
+15:25:06.616 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+15:25:06.618 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+15:25:06.618 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+15:25:06.618 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+15:25:06.618 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+15:25:06.618 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /admin/login HTTP/1.1
+15:25:06.618 [main] DEBUG org.apache.http.wire -  >> "POST /admin/login HTTP/1.1[\r][\n]"
+15:25:06.618 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+15:25:06.618 [main] DEBUG org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+15:25:06.618 [main] DEBUG org.apache.http.wire -  >> "Content-Length: 46[\r][\n]"
+15:25:06.618 [main] DEBUG org.apache.http.wire -  >> "Host: capstone-project.duckdns.org:8080[\r][\n]"
+15:25:06.618 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+15:25:06.618 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.3.1)[\r][\n]"
+15:25:06.618 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+15:25:06.618 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+15:25:06.618 [main] DEBUG org.apache.http.headers - >> POST /admin/login HTTP/1.1
+15:25:06.618 [main] DEBUG org.apache.http.headers - >> Accept: */*
+15:25:06.618 [main] DEBUG org.apache.http.headers - >> Content-Type: application/json
+15:25:06.618 [main] DEBUG org.apache.http.headers - >> Content-Length: 46
+15:25:06.618 [main] DEBUG org.apache.http.headers - >> Host: capstone-project.duckdns.org:8080
+15:25:06.618 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+15:25:06.618 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.3.1)
+15:25:06.618 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+15:25:06.618 [main] DEBUG org.apache.http.wire -  >> "{"password":"admin","email":"admin@admin.com"}"
+15:25:06.705 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+15:25:06.705 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+15:25:06.705 [main] DEBUG org.apache.http.wire -  << "Vary: Origin[\r][\n]"
+15:25:06.705 [main] DEBUG org.apache.http.wire -  << "Date: Mon, 26 Jun 2023 08:25:12 GMT[\r][\n]"
+15:25:06.705 [main] DEBUG org.apache.http.wire -  << "Content-Length: 186[\r][\n]"
+15:25:06.705 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+15:25:06.705 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+15:25:06.705 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+15:25:06.705 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=UTF-8
+15:25:06.705 [main] DEBUG org.apache.http.headers - << Vary: Origin
+15:25:06.705 [main] DEBUG org.apache.http.headers - << Date: Mon, 26 Jun 2023 08:25:12 GMT
+15:25:06.705 [main] DEBUG org.apache.http.headers - << Content-Length: 186
+15:25:06.705 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+15:25:06.705 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=UTF-8
+15:25:06.705 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+15:25:06.706 [main] DEBUG org.apache.http.wire -  << "{"message":"success login","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6MSwiYXV0aG9yaXplZCI6dHJ1ZSwiZXhwIjoxNjg3ODU0MzEyfQ.hx74HJiT7zWXe7F7tqlq89zci7lH96k9YsqMUhqe3yE"}[\n]"
+15:25:06.706 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@b2e1df3
+15:25:06.706 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+15:25:06.707 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send Post HTTP Request
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send Post HTTP Request&amp#27;[0m                                    &amp#27;[90m# starter.stepDefinition.AuthAdminSteps.sendPostHTTPRequest()&amp#27;[0m
+15:25:06.709 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AuthAdminSteps.receiveValidHTTP200 - I receive valid HTTP Response code 200
+15:25:06.709 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid HTTP Response code 200
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI receive valid HTTP Response code 200&amp#27;[0m                      &amp#27;[90m# starter.stepDefinition.AuthAdminSteps.receiveValidHTTP200()&amp#27;[0m
+15:25:06.711 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AuthAdminSteps.receiveValidDataAdmAccount - I receive valid data for my own admin account
+15:25:06.718 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid data for my own admin account
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI receive valid data for my own admin account&amp#27;[0m                &amp#27;[90m# starter.stepDefinition.AuthAdminSteps.receiveValidDataAdmAccount()&amp#27;[0m
+15:25:06.720 [main] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+POST - As admin I have be able to login to my own system
+----------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="POST - As admin I have be able to prevented to login" classname="AuthAdmin" time="0.172">
+    <system-out><![CDATA[
+Scenario: POST - As admin I have be able to prevented to login &amp#27;[90m# src/test/resources/features/AuthAdmin.feature:13&amp#27;[0m
+15:25:06.727 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/VICTUS/IdeaProjects/RestAssuredCapstoneProject/src/test/resources/features/AuthAdmin.feature
+15:25:06.727 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+POST - As admin I have be able to prevented to login(authadmin;post---as-admin-i-have-be-able-to-prevented-to-login)
+--------------------------------------------------------------------------------
+15:25:06.731 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AuthAdminSteps.setPostApiEndpointNeg - I set POST API Endpoint
+15:25:06.731 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set POST API Endpoint
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set POST API Endpoint&amp#27;[0m                                &amp#27;[90m# starter.stepDefinition.AuthAdminSteps.setPostApiEndpointNeg()&amp#27;[0m
+15:25:06.734 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AuthAdminSteps.sendPostHTTPRequestNeg - I send POST HTTP Request
+15:25:06.735 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: NegLogAdmin.sendPostHttpRequestNeg - I set POST API Endpoint
+15:25:06.735 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set POST API Endpoint
+15:25:06.742 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://capstone-project.duckdns.org:8080
+15:25:06.742 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to capstone-project.duckdns.org:8080
+15:25:06.829 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+15:25:06.829 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+15:25:06.829 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+15:25:06.829 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+15:25:06.830 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+15:25:06.830 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /admin/login HTTP/1.1
+15:25:06.830 [main] DEBUG org.apache.http.wire -  >> "POST /admin/login HTTP/1.1[\r][\n]"
+15:25:06.830 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+15:25:06.830 [main] DEBUG org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+15:25:06.830 [main] DEBUG org.apache.http.wire -  >> "Content-Length: 26[\r][\n]"
+15:25:06.830 [main] DEBUG org.apache.http.wire -  >> "Host: capstone-project.duckdns.org:8080[\r][\n]"
+15:25:06.830 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+15:25:06.830 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.3.1)[\r][\n]"
+15:25:06.830 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+15:25:06.830 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+15:25:06.830 [main] DEBUG org.apache.http.headers - >> POST /admin/login HTTP/1.1
+15:25:06.830 [main] DEBUG org.apache.http.headers - >> Accept: */*
+15:25:06.830 [main] DEBUG org.apache.http.headers - >> Content-Type: application/json
+15:25:06.830 [main] DEBUG org.apache.http.headers - >> Content-Length: 26
+15:25:06.830 [main] DEBUG org.apache.http.headers - >> Host: capstone-project.duckdns.org:8080
+15:25:06.830 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+15:25:06.830 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.3.1)
+15:25:06.830 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+15:25:06.830 [main] DEBUG org.apache.http.wire -  >> "{"password":"","email":""}"
+15:25:06.877 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+15:25:06.877 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+15:25:06.877 [main] DEBUG org.apache.http.wire -  << "Vary: Origin[\r][\n]"
+15:25:06.877 [main] DEBUG org.apache.http.wire -  << "Date: Mon, 26 Jun 2023 08:25:12 GMT[\r][\n]"
+15:25:06.877 [main] DEBUG org.apache.http.wire -  << "Content-Length: 57[\r][\n]"
+15:25:06.877 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+15:25:06.877 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 500 Internal Server Error
+15:25:06.877 [main] DEBUG org.apache.http.headers - << HTTP/1.1 500 Internal Server Error
+15:25:06.877 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=UTF-8
+15:25:06.877 [main] DEBUG org.apache.http.headers - << Vary: Origin
+15:25:06.877 [main] DEBUG org.apache.http.headers - << Date: Mon, 26 Jun 2023 08:25:12 GMT
+15:25:06.877 [main] DEBUG org.apache.http.headers - << Content-Length: 57
+15:25:06.877 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+15:25:06.878 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=UTF-8
+15:25:06.878 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+15:25:06.879 [main] DEBUG org.apache.http.wire -  << "{"error":"record not found","message":"failed to login"}[\n]"
+15:25:06.879 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@176e839e
+15:25:06.879 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+15:25:06.880 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send POST HTTP Request
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send POST HTTP Request&amp#27;[0m                                &amp#27;[90m# starter.stepDefinition.AuthAdminSteps.sendPostHTTPRequestNeg()&amp#27;[0m
+15:25:06.881 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AuthAdminSteps.receiveValidHTTP500Neg - I receive valid HTTP Response code 500
+15:25:06.882 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid HTTP Response code 500
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI receive valid HTTP Response code 500&amp#27;[0m                  &amp#27;[90m# starter.stepDefinition.AuthAdminSteps.receiveValidHTTP500Neg()&amp#27;[0m
+15:25:06.883 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AuthAdminSteps.receiveErrMessageAdmPreventedLogin - I prevented to login with Error message
+15:25:06.892 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I prevented to login with Error message
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI prevented to login with Error message&amp#27;[0m                  &amp#27;[90m# starter.stepDefinition.AuthAdminSteps.receiveErrMessageAdmPreventedLogin()&amp#27;[0m
+15:25:06.893 [main] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+POST - As admin I have be able to prevented to login
+----------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="POST - As user I have be able to login existing user account" classname="Auth" time="0.28">
+    <system-out><![CDATA[15:25:06.894 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/VICTUS/IdeaProjects/RestAssuredCapstoneProject/src/test/resources/features/AuthUser.feature
+15:25:06.895 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@e2dc8d13
+15:25:06.895 [main] INFO  - Test Suite Started: Auth
+
+Scenario: POST - As user I have be able to login existing user account &amp#27;[90m# src/test/resources/features/AuthUser.feature:7&amp#27;[0m
+15:25:06.899 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/VICTUS/IdeaProjects/RestAssuredCapstoneProject/src/test/resources/features/AuthUser.feature
+15:25:06.900 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+POST - As user I have be able to login existing user account(auth;post---as-user-i-have-be-able-to-login-existing-user-account)
+--------------------------------------------------------------------------------
+15:25:06.910 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:54513<->34.128.80.217:8080 closed
+15:25:06.912 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:54512<->34.128.80.217:8080 closed
+15:25:06.912 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:54515<->34.128.80.217:8080 closed
+15:25:06.912 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:54514<->34.128.80.217:8080 closed
+15:25:06.916 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AuthUserSteps.setPostApiEndpoint - I set POST api endpoint
+15:25:06.916 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set POST api endpoint
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set Post API endpoint&amp#27;[0m                                        &amp#27;[90m# starter.stepDefinition.AuthUserSteps.setPostApiEndpoint()&amp#27;[0m
+15:25:06.918 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AuthUserSteps.sendPostHTTPRequest - I send POST HTTP Request
+15:25:06.919 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PosLogUser.sendPostHttpRequest - I set POST api endpoint
+15:25:06.919 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set POST api endpoint
+15:25:06.927 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://capstone-project.duckdns.org:8080
+15:25:06.928 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to capstone-project.duckdns.org:8080
+15:25:07.030 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+15:25:07.031 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+15:25:07.031 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+15:25:07.031 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+15:25:07.031 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+15:25:07.031 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /user/login HTTP/1.1
+15:25:07.031 [main] DEBUG org.apache.http.wire -  >> "POST /user/login HTTP/1.1[\r][\n]"
+15:25:07.031 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+15:25:07.031 [main] DEBUG org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+15:25:07.031 [main] DEBUG org.apache.http.wire -  >> "Content-Length: 57[\r][\n]"
+15:25:07.031 [main] DEBUG org.apache.http.wire -  >> "Host: capstone-project.duckdns.org:8080[\r][\n]"
+15:25:07.031 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+15:25:07.031 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.3.1)[\r][\n]"
+15:25:07.031 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+15:25:07.031 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+15:25:07.031 [main] DEBUG org.apache.http.headers - >> POST /user/login HTTP/1.1
+15:25:07.031 [main] DEBUG org.apache.http.headers - >> Accept: */*
+15:25:07.031 [main] DEBUG org.apache.http.headers - >> Content-Type: application/json
+15:25:07.031 [main] DEBUG org.apache.http.headers - >> Content-Length: 57
+15:25:07.031 [main] DEBUG org.apache.http.headers - >> Host: capstone-project.duckdns.org:8080
+15:25:07.031 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+15:25:07.031 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.3.1)
+15:25:07.031 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+15:25:07.031 [main] DEBUG org.apache.http.wire -  >> "{"password":"audyva","email":"audyva.alifia26@gmail.com"}"
+15:25:07.160 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+15:25:07.160 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+15:25:07.160 [main] DEBUG org.apache.http.wire -  << "Vary: Origin[\r][\n]"
+15:25:07.160 [main] DEBUG org.apache.http.wire -  << "Date: Mon, 26 Jun 2023 08:25:13 GMT[\r][\n]"
+15:25:07.160 [main] DEBUG org.apache.http.wire -  << "Content-Length: 829[\r][\n]"
+15:25:07.160 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+15:25:07.160 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+15:25:07.160 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+15:25:07.160 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=UTF-8
+15:25:07.160 [main] DEBUG org.apache.http.headers - << Vary: Origin
+15:25:07.160 [main] DEBUG org.apache.http.headers - << Date: Mon, 26 Jun 2023 08:25:13 GMT
+15:25:07.160 [main] DEBUG org.apache.http.headers - << Content-Length: 829
+15:25:07.160 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+15:25:07.160 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=UTF-8
+15:25:07.160 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+15:25:07.161 [main] DEBUG org.apache.http.wire -  << "{"message":"success login","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRCI6NCwiZW1haWwiOiJhdWR5dmEuYWxpZmlhMjZAZ21haWwuY29tIiwidXNlcm5hbWUiOiJhdWR5dmFpYSIsInBhc3N3b3JkIjoiJDJhJDEwJEJ6ZnhrdVlscEpMU2pFSTg0MG1YZi5OUzVudTU1SGhPNVIzY0JOSnpNTGdveG4wakVFQlNtIiwidGVscG9uIjoiIiwiYWxhbWF0IjoibWFsYW5nIiwiZ2VuZGVyIjoiUCIsInN0YXR1c19vbmxpbmUiOmZhbHNlLCJyb2xlIjoidXNlciIsImV4cCI6MTY4Nzg1NDMxM30.wpCIta5OEyGyHoJolu3PzCW3d0GTQfrbfYG8YsmXn_k","user":{"ID":4,"CreatedAt":"2023-06-25T07:02:58.949Z","UpdatedAt":"2023-06-25T07:02:58.949Z","DeletedAt":null,"email":"audyva.alifia26@gmail.com","username":"audyvaia","fullname":"","password":"$2a$10$BzfxkuYlpJLSjEI840mXf.NS5nu55HhO5R3cBNJzMLgoxn0jEEBSm","telpon":"","alamat":"malang","gender":"P","birthdate":"2003-01-01T00:00:00Z","status_online":false,"Doctors":null,"ChatwithDoctor":null}}[\n]"
+15:25:07.161 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@102c24d1
+15:25:07.161 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+15:25:07.162 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send POST HTTP Request
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send Post HTTP request&amp#27;[0m                                        &amp#27;[90m# starter.stepDefinition.AuthUserSteps.sendPostHTTPRequest()&amp#27;[0m
+15:25:07.164 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AuthUserSteps.receiveValidHTTP200 - I receive valid HTTP response code is 200
+15:25:07.165 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid HTTP response code is 200
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI receive valid HTTP Response code is 200&amp#27;[0m                       &amp#27;[90m# starter.stepDefinition.AuthUserSteps.receiveValidHTTP200()&amp#27;[0m
+15:25:07.166 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AuthUserSteps.receiveValidDataExistingAccount - I receive valid data for product category
+15:25:07.174 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid data for product category
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI receive valid data for existing user account&amp#27;[0m                   &amp#27;[90m# starter.stepDefinition.AuthUserSteps.receiveValidDataExistingAccount()&amp#27;[0m
+15:25:07.175 [main] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+POST - As user I have be able to login existing user account
+----------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="POST - As user I have be able to prevented to login" classname="Auth" time="0.34">
+    <system-out><![CDATA[
+Scenario: POST - As user I have be able to prevented to login &amp#27;[90m# src/test/resources/features/AuthUser.feature:13&amp#27;[0m
+15:25:07.179 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/VICTUS/IdeaProjects/RestAssuredCapstoneProject/src/test/resources/features/AuthUser.feature
+15:25:07.180 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+POST - As user I have be able to prevented to login(auth;post---as-user-i-have-be-able-to-prevented-to-login)
+--------------------------------------------------------------------------------
+15:25:07.184 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AuthUserSteps.setPostApiEndpointNeg - I set POST api endpoint
+15:25:07.184 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set POST api endpoint
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set POST API endpoint&amp#27;[0m                               &amp#27;[90m# starter.stepDefinition.AuthUserSteps.setPostApiEndpointNeg()&amp#27;[0m
+15:25:07.186 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AuthUserSteps.sendPostHTTPRequestNeg - I send POST HTTP Request
+15:25:07.187 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: NegLogUser.sendPostHttpRequestNeg - I set POST api endpoint
+15:25:07.187 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set POST api endpoint
+15:25:07.198 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://capstone-project.duckdns.org:8080
+15:25:07.198 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to capstone-project.duckdns.org:8080
+15:25:07.339 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+15:25:07.339 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+15:25:07.339 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+15:25:07.339 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+15:25:07.339 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+15:25:07.339 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /user/login HTTP/1.1
+15:25:07.339 [main] DEBUG org.apache.http.wire -  >> "POST /user/login HTTP/1.1[\r][\n]"
+15:25:07.339 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+15:25:07.339 [main] DEBUG org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+15:25:07.339 [main] DEBUG org.apache.http.wire -  >> "Content-Length: 59[\r][\n]"
+15:25:07.339 [main] DEBUG org.apache.http.wire -  >> "Host: capstone-project.duckdns.org:8080[\r][\n]"
+15:25:07.339 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+15:25:07.339 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.3.1)[\r][\n]"
+15:25:07.339 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+15:25:07.339 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+15:25:07.339 [main] DEBUG org.apache.http.headers - >> POST /user/login HTTP/1.1
+15:25:07.339 [main] DEBUG org.apache.http.headers - >> Accept: */*
+15:25:07.339 [main] DEBUG org.apache.http.headers - >> Content-Type: application/json
+15:25:07.339 [main] DEBUG org.apache.http.headers - >> Content-Length: 59
+15:25:07.339 [main] DEBUG org.apache.http.headers - >> Host: capstone-project.duckdns.org:8080
+15:25:07.339 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+15:25:07.339 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.3.1)
+15:25:07.339 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+15:25:07.339 [main] DEBUG org.apache.http.wire -  >> "{"password":"ihhwibuu","email":"audyva.alifia26@gmail.com"}"
+15:25:07.500 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 400 Bad Request[\r][\n]"
+15:25:07.500 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+15:25:07.500 [main] DEBUG org.apache.http.wire -  << "Vary: Origin[\r][\n]"
+15:25:07.500 [main] DEBUG org.apache.http.wire -  << "Date: Mon, 26 Jun 2023 08:25:13 GMT[\r][\n]"
+15:25:07.500 [main] DEBUG org.apache.http.wire -  << "Content-Length: 38[\r][\n]"
+15:25:07.500 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+15:25:07.500 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 400 Bad Request
+15:25:07.500 [main] DEBUG org.apache.http.headers - << HTTP/1.1 400 Bad Request
+15:25:07.500 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=UTF-8
+15:25:07.500 [main] DEBUG org.apache.http.headers - << Vary: Origin
+15:25:07.500 [main] DEBUG org.apache.http.headers - << Date: Mon, 26 Jun 2023 08:25:13 GMT
+15:25:07.500 [main] DEBUG org.apache.http.headers - << Content-Length: 38
+15:25:07.500 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+15:25:07.500 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=UTF-8
+15:25:07.500 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+15:25:07.501 [main] DEBUG org.apache.http.wire -  << "{"message":"email or password wrong"}[\n]"
+15:25:07.502 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@52f118aa
+15:25:07.502 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+15:25:07.502 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send POST HTTP Request
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send POST HTTP request&amp#27;[0m                               &amp#27;[90m# starter.stepDefinition.AuthUserSteps.sendPostHTTPRequestNeg()&amp#27;[0m
+15:25:07.504 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AuthUserSteps.receiveValidHTTP400Neg - I receive valid HTTP response code is 400
+15:25:07.504 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid HTTP response code is 400
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI receive valid HTTP Response code is 400&amp#27;[0m              &amp#27;[90m# starter.stepDefinition.AuthUserSteps.receiveValidHTTP400Neg()&amp#27;[0m
+15:25:07.507 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AuthUserSteps.receiveErrMessagePreventedLogin - I prevented to login with error message
+15:25:07.515 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I prevented to login with error message
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI prevented to login with error message&amp#27;[0m                 &amp#27;[90m# starter.stepDefinition.AuthUserSteps.receiveErrMessagePreventedLogin()&amp#27;[0m
+15:25:07.516 [main] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+POST - As user I have be able to prevented to login
+----------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="GET - As admin I have be able to get doctor by id i input" classname="GetDoctorIdUser" time="0.286">
+    <system-out><![CDATA[15:25:07.517 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/VICTUS/IdeaProjects/RestAssuredCapstoneProject/src/test/resources/features/GetDocIdUser.feature
+15:25:07.517 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@8f785b15
+15:25:07.518 [main] INFO  - Test Suite Started: Get doctor id user
+
+Scenario: GET - As admin I have be able to get doctor by id i input &amp#27;[90m# src/test/resources/features/GetDocIdUser.feature:6&amp#27;[0m
+15:25:07.523 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/VICTUS/IdeaProjects/RestAssuredCapstoneProject/src/test/resources/features/GetDocIdUser.feature
+15:25:07.524 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+GET - As admin I have be able to get doctor by id i input(getdoctoriduser;get---as-admin-i-have-be-able-to-get-doctor-by-id-i-input)
+--------------------------------------------------------------------------------
+15:25:07.534 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetDoctorIdUserSteps.setGetApiEndpoints - I set GET api endpoints
+15:25:07.534 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set GET api endpoints
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set GET api endpoints&amp#27;[0m                                     &amp#27;[90m# starter.stepDefinition.GetDoctorIdUserSteps.setGetApiEndpoints()&amp#27;[0m
+15:25:07.537 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetDoctorIdUserSteps.sendGetHttpRequest - I send GET http request
+15:25:07.538 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PosGetDocIdUser.sendGetHttpRequest - I set GET api endpoints
+15:25:07.538 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set GET api endpoints
+15:25:07.543 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://capstone-project.duckdns.org:8080
+15:25:07.544 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to capstone-project.duckdns.org:8080
+15:25:07.706 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+15:25:07.706 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+15:25:07.706 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+15:25:07.706 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+15:25:07.706 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+15:25:07.706 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /doctor/3 HTTP/1.1
+15:25:07.706 [main] DEBUG org.apache.http.wire -  >> "GET /doctor/3 HTTP/1.1[\r][\n]"
+15:25:07.706 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+15:25:07.706 [main] DEBUG org.apache.http.wire -  >> "Host: capstone-project.duckdns.org:8080[\r][\n]"
+15:25:07.706 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+15:25:07.706 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.3.1)[\r][\n]"
+15:25:07.706 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+15:25:07.706 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+15:25:07.706 [main] DEBUG org.apache.http.headers - >> GET /doctor/3 HTTP/1.1
+15:25:07.706 [main] DEBUG org.apache.http.headers - >> Accept: */*
+15:25:07.706 [main] DEBUG org.apache.http.headers - >> Host: capstone-project.duckdns.org:8080
+15:25:07.706 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+15:25:07.706 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.3.1)
+15:25:07.706 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+15:25:07.775 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+15:25:07.776 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+15:25:07.776 [main] DEBUG org.apache.http.wire -  << "Vary: Origin[\r][\n]"
+15:25:07.776 [main] DEBUG org.apache.http.wire -  << "Date: Mon, 26 Jun 2023 08:25:13 GMT[\r][\n]"
+15:25:07.776 [main] DEBUG org.apache.http.wire -  << "Content-Length: 1174[\r][\n]"
+15:25:07.776 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+15:25:07.776 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+15:25:07.776 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+15:25:07.776 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=UTF-8
+15:25:07.776 [main] DEBUG org.apache.http.headers - << Vary: Origin
+15:25:07.776 [main] DEBUG org.apache.http.headers - << Date: Mon, 26 Jun 2023 08:25:13 GMT
+15:25:07.776 [main] DEBUG org.apache.http.headers - << Content-Length: 1174
+15:25:07.776 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+15:25:07.776 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=UTF-8
+15:25:07.776 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+15:25:07.777 [main] DEBUG org.apache.http.wire -  << "{"doctor":{"ID":3,"CreatedAt":"2023-06-25T07:02:08.479Z","UpdatedAt":"2023-06-25T07:03:21.781Z","DeletedAt":null,"email":"audyvairefilevitasarialifia9@gmail.com","password":"$2a$10$FbAaPx4GwsOBxgleHT4x..tYvRuRmWxiikwioH5vVOwtkY/NYSjnC","full_name":"audyvaalifia","display_name":"","nik":"894789274892749827","gender":"P","birth_place":"dummy city","birth_date":"2000-01-01T00:00:00Z","religion":"dummy","alumnus":"dummy univ","jurusan":"dummy","work_experience":0,"work":"dummy","grad_year":"2000","alumnus2":"","jurusan2":"","grad_year2":"","year_entry":"","year_out":"","practice_address":"dummy street","price":0,"komisi":0,"balance":0,"cv":"https://s3capstone.s3.ap-southeast-2.amazonaws.com/uploads/cv/2023-06-25-2843.pdf","ijazah":"https://s3capstone.s3.ap-southeast-2.amazonaws.com/uploads/ijazah/2023-06-25-2843.pdf","str":"https://s3capstone.s3.ap-southeast-2.amazonaws.com/uploads/str/2023-06-25-2843.pdf","sip":"https://s3capstone.s3.ap-southeast-2.amazonaws.com/uploads/sip/2023-06-25-2843.pdf","propic":"","status_online":false,"statu"
+15:25:07.777 [main] DEBUG org.apache.http.wire -  << "s":"approved","str_number":"dummystrnum","specialist":"","description":"","ChatwithUser":null},"message":"success get doctor"}[\n]"
+15:25:07.777 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@104cf647
+15:25:07.777 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+15:25:07.778 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send GET http request
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send GET http request&amp#27;[0m                                      &amp#27;[90m# starter.stepDefinition.GetDoctorIdUserSteps.sendGetHttpRequest()&amp#27;[0m
+15:25:07.780 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetDoctorIdUserSteps.receiveValidHttpResponse - I receive valid http response code 200
+15:25:07.780 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid http response code 200
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI receive valid http response code 200&amp#27;[0m                       &amp#27;[90m# starter.stepDefinition.GetDoctorIdUserSteps.receiveValidHttpResponse()&amp#27;[0m
+15:25:07.782 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetDoctorIdUserSteps.receivevalidateDataDoctorIChoose - I receive valid data for doctor i choose
+15:25:07.802 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid data for doctor i choose
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI receive valid data for doctor i choose&amp#27;[0m                      &amp#27;[90m# starter.stepDefinition.GetDoctorIdUserSteps.receivevalidateDataDoctorIChoose()&amp#27;[0m
+15:25:07.803 [main] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+GET - As admin I have be able to get doctor by id i input
+----------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="GET - As admin I have be able to prevented to get doctor by id i input" classname="GetDoctorIdUser" time="0.215">
+    <system-out><![CDATA[
+Scenario: GET - As admin I have be able to prevented to get doctor by id i input &amp#27;[90m# src/test/resources/features/GetDocIdUser.feature:12&amp#27;[0m
+15:25:07.807 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/VICTUS/IdeaProjects/RestAssuredCapstoneProject/src/test/resources/features/GetDocIdUser.feature
+15:25:07.808 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+GET - As admin I have be able to prevented to get doctor by id i input(getdoctoriduser;get---as-admin-i-have-be-able-to-prevented-to-get-doctor-by-id-i-input)
+--------------------------------------------------------------------------------
+15:25:07.813 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetDoctorIdUserSteps.setGetApiEndpointsNeg - I set GET API endpoints
+15:25:07.813 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set GET API endpoints
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set GET API endpoints&amp#27;[0m                                                  &amp#27;[90m# starter.stepDefinition.GetDoctorIdUserSteps.setGetApiEndpointsNeg()&amp#27;[0m
+15:25:07.814 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetDoctorIdUserSteps.sendGetHttpRequestNeg - I Send GET HTTP Request
+15:25:07.816 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: NegGetDocIdUser.sendGetHttpRequestNeg - I set GET API endpoints
+15:25:07.816 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set GET API endpoints
+15:25:07.820 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://capstone-project.duckdns.org:8080
+15:25:07.820 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to capstone-project.duckdns.org:8080
+15:25:07.936 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+15:25:07.936 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+15:25:07.936 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+15:25:07.936 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+15:25:07.936 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+15:25:07.936 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /doctor/4587485834 HTTP/1.1
+15:25:07.936 [main] DEBUG org.apache.http.wire -  >> "GET /doctor/4587485834 HTTP/1.1[\r][\n]"
+15:25:07.936 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+15:25:07.936 [main] DEBUG org.apache.http.wire -  >> "Host: capstone-project.duckdns.org:8080[\r][\n]"
+15:25:07.936 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+15:25:07.936 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.3.1)[\r][\n]"
+15:25:07.936 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+15:25:07.936 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+15:25:07.936 [main] DEBUG org.apache.http.headers - >> GET /doctor/4587485834 HTTP/1.1
+15:25:07.936 [main] DEBUG org.apache.http.headers - >> Accept: */*
+15:25:07.936 [main] DEBUG org.apache.http.headers - >> Host: capstone-project.duckdns.org:8080
+15:25:07.936 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+15:25:07.936 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.3.1)
+15:25:07.936 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+15:25:07.993 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+15:25:07.993 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+15:25:07.993 [main] DEBUG org.apache.http.wire -  << "Vary: Origin[\r][\n]"
+15:25:07.993 [main] DEBUG org.apache.http.wire -  << "Date: Mon, 26 Jun 2023 08:25:14 GMT[\r][\n]"
+15:25:07.993 [main] DEBUG org.apache.http.wire -  << "Content-Length: 617[\r][\n]"
+15:25:07.993 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+15:25:07.993 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+15:25:07.993 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+15:25:07.993 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=UTF-8
+15:25:07.993 [main] DEBUG org.apache.http.headers - << Vary: Origin
+15:25:07.993 [main] DEBUG org.apache.http.headers - << Date: Mon, 26 Jun 2023 08:25:14 GMT
+15:25:07.993 [main] DEBUG org.apache.http.headers - << Content-Length: 617
+15:25:07.994 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+15:25:07.994 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=UTF-8
+15:25:07.994 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+15:25:07.995 [main] DEBUG org.apache.http.wire -  << "{"doctor":{"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","DeletedAt":null,"email":"","password":"","full_name":"","display_name":"","nik":"","gender":"","birth_place":"","birth_date":"","religion":"","alumnus":"","jurusan":"","work_experience":0,"work":"","grad_year":"","alumnus2":"","jurusan2":"","grad_year2":"","year_entry":"","year_out":"","practice_address":"","price":0,"komisi":0,"balance":0,"cv":"","ijazah":"","str":"","sip":"","propic":"","status_online":false,"status":"","str_number":"","specialist":"","description":"","ChatwithUser":null},"message":"success get doctor"}[\n]"
+15:25:07.995 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2352c21f
+15:25:07.995 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+15:25:07.995 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I Send GET HTTP Request
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI Send GET HTTP Request&amp#27;[0m                                                   &amp#27;[90m# starter.stepDefinition.GetDoctorIdUserSteps.sendGetHttpRequestNeg()&amp#27;[0m
+15:25:07.997 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetDoctorIdUserSteps.receiveValidHttpResponseNeg - I receive valid http response code is 200
+15:25:07.998 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid http response code is 200
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI receive valid http response code is 200&amp#27;[0m                                 &amp#27;[90m# starter.stepDefinition.GetDoctorIdUserSteps.receiveValidHttpResponseNeg()&amp#27;[0m
+15:25:08.000 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetDoctorIdUserSteps.receivevalidateDataDoctorIChooseNeg - I receive blank data doctor
+15:25:08.016 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive blank data doctor
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI receive blank data doctor&amp#27;[0m                                                &amp#27;[90m# starter.stepDefinition.GetDoctorIdUserSteps.receivevalidateDataDoctorIChooseNeg()&amp#27;[0m
+15:25:08.018 [main] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+GET - As admin I have be able to prevented to get doctor by id i input
+----------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="GET - As user I have be able to search article by keyword i input" classname="SearchArticle" time="0.212">
+    <system-out><![CDATA[15:25:08.019 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/VICTUS/IdeaProjects/RestAssuredCapstoneProject/src/test/resources/features/SearchArticleUser.feature
+15:25:08.019 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@b75a3c73
+15:25:08.020 [main] INFO  - Test Suite Started: Search article
+
+Scenario: GET - As user I have be able to search article by keyword i input &amp#27;[90m# src/test/resources/features/SearchArticleUser.feature:6&amp#27;[0m
+15:25:08.022 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/VICTUS/IdeaProjects/RestAssuredCapstoneProject/src/test/resources/features/SearchArticleUser.feature
+15:25:08.025 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+GET - As user I have be able to search article by keyword i input(searcharticle;get---as-user-i-have-be-able-to-search-article-by-keyword-i-input)
+--------------------------------------------------------------------------------
+15:25:08.035 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SearchArticleUserSteps.setGetApiEndpoints - I set GET API endpoint
+15:25:08.035 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set GET API endpoint
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set GET api endpoint&amp#27;[0m                                              &amp#27;[90m# starter.stepDefinition.SearchArticleUserSteps.setGetApiEndpoints()&amp#27;[0m
+15:25:08.036 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SearchArticleUserSteps.sendGetHttpRequest - I send GET HTTP Request
+15:25:08.037 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PosSearchArtcUser.sendGetHttpRequest - I set GET API endpoint
+15:25:08.037 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set GET API endpoint
+15:25:08.050 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://capstone-project.duckdns.org:8080
+15:25:08.050 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to capstone-project.duckdns.org:8080
+15:25:08.145 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+15:25:08.145 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+15:25:08.145 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+15:25:08.145 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+15:25:08.145 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+15:25:08.145 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /articles/search?keyword=mental HTTP/1.1
+15:25:08.145 [main] DEBUG org.apache.http.wire -  >> "GET /articles/search?keyword=mental HTTP/1.1[\r][\n]"
+15:25:08.145 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+15:25:08.145 [main] DEBUG org.apache.http.wire -  >> "Host: capstone-project.duckdns.org:8080[\r][\n]"
+15:25:08.145 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+15:25:08.145 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.3.1)[\r][\n]"
+15:25:08.145 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+15:25:08.145 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+15:25:08.145 [main] DEBUG org.apache.http.headers - >> GET /articles/search?keyword=mental HTTP/1.1
+15:25:08.145 [main] DEBUG org.apache.http.headers - >> Accept: */*
+15:25:08.145 [main] DEBUG org.apache.http.headers - >> Host: capstone-project.duckdns.org:8080
+15:25:08.145 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+15:25:08.145 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.3.1)
+15:25:08.145 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+15:25:08.197 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+15:25:08.198 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+15:25:08.198 [main] DEBUG org.apache.http.wire -  << "Vary: Origin[\r][\n]"
+15:25:08.198 [main] DEBUG org.apache.http.wire -  << "Date: Mon, 26 Jun 2023 08:25:14 GMT[\r][\n]"
+15:25:08.198 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+15:25:08.198 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+15:25:08.198 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+15:25:08.198 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+15:25:08.198 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=UTF-8
+15:25:08.198 [main] DEBUG org.apache.http.headers - << Vary: Origin
+15:25:08.198 [main] DEBUG org.apache.http.headers - << Date: Mon, 26 Jun 2023 08:25:14 GMT
+15:25:08.198 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+15:25:08.199 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+15:25:08.199 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=UTF-8
+15:25:08.199 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+15:25:08.200 [main] DEBUG org.apache.http.wire -  << "14d0[\r][\n]"
+15:25:08.200 [main] DEBUG org.apache.http.wire -  << "{"data":[{"id":1,"title":"Mendukung Kesehatan Mental: Mengatasi Tantangan dalam Hidup Sehari-hari untuk generasi z","thumbnail":"https://s3capstone.s3.ap-southeast-2.amazonaws.com/uploads/article/2023-06-25-1643.png","content":"\u003cp\u003e\u003cstrong\u003eKesehatan mental\u003c/strong\u003e adalah aspek penting dari kesejahteraan kita yang tidak boleh diabaikan. Di tengah kehidupan yang serba cepat dan tekanan yang tinggi, penting bagi kita untuk menjaga kesehatan mental kita agar tetap seimbang dan bahagia. Berikut ini adalah beberapa tips untuk mengatasi tantangan dalam hidup sehari-hari dan mendukung kesehatan mental kita:\u003c/p\u003e\u003col\u003e\u003cli\u003eMengelola Stres: Stres dapat memiliki dampak negatif pada kesehatan mental kita. Penting bagi kita untuk mengenali tanda-tanda stres dan mengambil langkah-langkah untuk mengelolanya. Carilah cara-cara untuk meredakan stres seperti olahraga, meditasi, atau melakukan hobi yang kita sukai.\u003c/li\u003e\u003cli\u003eMenjaga Keseimbangan Hidup: Penting bagi "
+15:25:08.205 [main] DEBUG org.apache.http.wire -  << "kita untuk menciptakan keseimbangan antara pekerjaan, kehidupan pribadi, dan waktu istirahat. Berikan waktu untuk diri sendiri, keluarga, dan teman-teman, serta lakukan aktivitas yang menyenangkan untuk mengisi energi positif.\u003c/li\u003e\u003cli\u003eMengembangkan Dukungan Sosial: Membangun hubungan yang sehat dan saling mendukung dengan orang lain dapat membantu mengatasi tantangan dan meningkatkan kesehatan mental. Carilah dukungan dari keluarga, teman, atau bahkan bergabung dengan komunitas yang memiliki minat yang sama.\u003c/li\u003e\u003cli\u003eBerlatih Self-Care: Jangan lupa merawat diri sendiri secara fisik dan emosional. Lakukan kegiatan yang membuat kita merasa baik, seperti tidur yang cukup, mengonsumsi makanan bergizi, dan melibatkan diri dalam kegiatan yang memberikan kepuasan.\u003c/li\u003e\u003cli\u003eMencari Bantuan Profesional: Jika kita merasa kesulitan mengatasi masalah kesehatan mental kita sendiri, jangan ragu untuk mencari bantuan profesional. Konselor, psikolog, atau psikiater dapat memberikan bantuan dan dukungan yang diperlukan.\u003c/li\u003e\u003c/ol\u003e\u003cp\u003eMendukung kesehatan mental adalah investasi jangka panjang dalam kesejahteraan dan kebahagiaan kita. Dengan menghadapi tantangan dalam hidup sehari-hari dengan sikap yang positif dan mengambil langkah-langkah untuk menjaga kesehatan mental kita, kita dapat mencapai kualitas hidup yang lebih baik dan lebih seimbang secara keseluruhan.\u003c/p\u003e","category":"Kesehatan Mental"},{"id":12,"title":"Kesehatan mental kaum rebahan generasi Z tahun 2023","thumbnail":"https://s3capstone.s3.ap-southeast-2.amazonaws.com/uploads/article/2023-06-25-8720.png","content":"\u003cp style=\"outline: rgb(255, 0, 0) solid 2px;\"\u003eGenerasi Z atau sebagai gen Z (lahir antara 1996-2012) disebut punya mental yang lemah. Terdapat banyak orang, khususnya generasi-generasi sebelumnya yang memberi cap mental sensitive. Aktivis HAM dan penggiat inklusi Bahrul Fuad, mengungkapkan bahwa hal itu hanyalah stigma. Dia mengungkapkan cap ini terjadi lantaran perhatian dan kesadaran soal kesehatan mental di masa lalu belum seperti sekarang. Saat ini, Gen Z dianggap lebih sadar soal kesehatan mental sehingga negatifnya mereka tak jarang menjadikan kesehatan mental untuk melindungi dirinya.\u003c/p\u003e\u003cp style=\"outline: rgb(255, 0, 0) solid 2px;\"\u003ePresid"
+15:25:08.205 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:54518<->34.128.80.217:8080 closed
+15:25:08.205 [main] DEBUG org.apache.http.wire -  << "en Asosiasi Pencegahan Bunuh Diri Indonesia (INASP) Sandersan Onie mengungkapkan bahwa mental gen Z saat ini memang lebih rentan depresi. Berbagai tantangan dan persaingan yang jauh lebih berat dianggap jadi penyebab utama mental Gen Z disebut lemah. Selain itu, media sosial yang membuat mereka jadi sibuk membandingkan diri sendiri dengan persona sempurna yang diunggah di dunia maya.\u003c/p\u003e\u003cp style=\"outline: rgb(255, 0, 0) solid 2px;\"\u003e[0xe2][0x80][0x9c]Anak saat bertumbuh tidak cuma dibandingkan dengan kakak, adik atau teman, ta"
+15:25:08.205 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:54519<->34.128.80.217:8080 closed
+15:25:08.205 [main] DEBUG org.apache.http.wire -  << "pi di media sosial dibandingkan dengan anak dari seluruh dunia,[0xe2][0x80][0x9d] katanya. Meski demikian, mental Gen Z dianggap lebih berani mengakui kerapuhan dirinya karena mereka terpapar informasi mengenai kesehatan mental. Hal ini, katanya, patut diapresiasi lantaran butuh keberanian untuk mengakuinya.\u003c/p\u003e\u003cp style=\"outline: rgb(255, 0, 0) solid 2px;\"\u003eRiset Kesehatan Dasar (Riskesdas) 2018, menunjukkan lebih dari 19 juta penduduk berusia lebih dari 15 tahun mengalami gangguan mental emosional, dan lebih dari 12 juta penduduk berusia lebih dari 15 tahun mengalami depresi. Selain itu berdasarkan Sistem Registrasi Sampel yang dilakukan Badan Litbangkes tahun 2016, diperoleh data bunuh diri pertahun sebanyak 1.800 orang atau setiap hari ada 5 orang melakukan bunuh diri, serta 47,7% korban bunuh diri adalah pada usia 10-39 tahun yang merupakan usia anak remaja dan usia produktif. Direktur Pencegahan dan Pengendalian Masalah Kesehatan Jiwa dan Napza Dr.Celestinus Eigya Munthe menjelaskan masalah kesehatan jiwa di Indonesia terkait dengan masalah tingginya prevalensi orang dengan gangguan jiwa. Untuk saat ini Indonesia memiliki prevalensi orang dengan gangguan jiwa sekitar 1 dari 5 penduduk, artinya sekitar 20% populasi di Indonesia itu mempunyai potensi-potensi masalah gangguan jiwa.\u003c/p\u003e","category":"Depresi"}],"message":"success get articles"}[\n]"
+15:25:08.205 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+15:25:08.205 [main] DEBUG org.apache.http.wire -  << "0[\r][\n]"
+15:25:08.205 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+15:25:08.205 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6e00d737
+15:25:08.205 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+15:25:08.205 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:54520<->34.128.80.217:8080 closed
+15:25:08.206 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:54516<->34.128.80.217:8080 closed
+15:25:08.206 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:54517<->34.128.80.217:8080 closed
+15:25:08.210 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send GET HTTP Request
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send GET HTTP Request&amp#27;[0m                                              &amp#27;[90m# starter.stepDefinition.SearchArticleUserSteps.sendGetHttpRequest()&amp#27;[0m
+15:25:08.212 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SearchArticleUserSteps.receiveValidHttpResponse - I receive valid HTTP response code is 200
+15:25:08.212 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid HTTP response code is 200
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI receive valid HTTP response code is 200&amp#27;[0m                            &amp#27;[90m# starter.stepDefinition.SearchArticleUserSteps.receiveValidHttpResponse()&amp#27;[0m
+15:25:08.213 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SearchArticleUserSteps.validateDataArticleKeyword - I receive valid data for article based on my keyword
+15:25:08.231 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid data for article based on my keyword
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI receive valid data for article based on my keyword&amp#27;[0m                  &amp#27;[90m# starter.stepDefinition.SearchArticleUserSteps.validateDataArticleKeyword()&amp#27;[0m
+15:25:08.232 [main] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+GET - As user I have be able to search article by keyword i input
+----------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="GET - As user I have be able to get blank page for article keyword i input" classname="SearchArticle" time="0.173">
+    <system-out><![CDATA[
+Scenario: GET - As user I have be able to get blank page for article keyword i input &amp#27;[90m# src/test/resources/features/SearchArticleUser.feature:12&amp#27;[0m
+15:25:08.236 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/VICTUS/IdeaProjects/RestAssuredCapstoneProject/src/test/resources/features/SearchArticleUser.feature
+15:25:08.237 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+GET - As user I have be able to get blank page for article keyword i input(searcharticle;get---as-user-i-have-be-able-to-get-blank-page-for-article-keyword-i-input)
+--------------------------------------------------------------------------------
+15:25:08.242 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SearchArticleUserSteps.setGetApiEndpointsNeg - I set GET API endpoint
+15:25:08.242 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set GET API endpoint
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set GET API endpoint&amp#27;[0m                                                       &amp#27;[90m# starter.stepDefinition.SearchArticleUserSteps.setGetApiEndpointsNeg()&amp#27;[0m
+15:25:08.243 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SearchArticleUserSteps.sendGetHttpRequestNeg - I send GET HTTP request
+15:25:08.244 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: NegSearchArtcUser.sendGetHttpRequestNeg - I set GET API endpoint
+15:25:08.244 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set GET API endpoint
+15:25:08.249 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://capstone-project.duckdns.org:8080
+15:25:08.249 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to capstone-project.duckdns.org:8080
+15:25:08.336 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+15:25:08.336 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+15:25:08.336 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+15:25:08.336 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+15:25:08.336 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+15:25:08.336 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /articles/search?keyword=afjnskjfnklsnfl HTTP/1.1
+15:25:08.336 [main] DEBUG org.apache.http.wire -  >> "GET /articles/search?keyword=afjnskjfnklsnfl HTTP/1.1[\r][\n]"
+15:25:08.336 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+15:25:08.336 [main] DEBUG org.apache.http.wire -  >> "Host: capstone-project.duckdns.org:8080[\r][\n]"
+15:25:08.336 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+15:25:08.336 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.3.1)[\r][\n]"
+15:25:08.336 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+15:25:08.336 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+15:25:08.336 [main] DEBUG org.apache.http.headers - >> GET /articles/search?keyword=afjnskjfnklsnfl HTTP/1.1
+15:25:08.336 [main] DEBUG org.apache.http.headers - >> Accept: */*
+15:25:08.336 [main] DEBUG org.apache.http.headers - >> Host: capstone-project.duckdns.org:8080
+15:25:08.336 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+15:25:08.336 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.3.1)
+15:25:08.336 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+15:25:08.386 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+15:25:08.386 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+15:25:08.386 [main] DEBUG org.apache.http.wire -  << "Vary: Origin[\r][\n]"
+15:25:08.386 [main] DEBUG org.apache.http.wire -  << "Date: Mon, 26 Jun 2023 08:25:14 GMT[\r][\n]"
+15:25:08.386 [main] DEBUG org.apache.http.wire -  << "Content-Length: 45[\r][\n]"
+15:25:08.386 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+15:25:08.386 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+15:25:08.386 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+15:25:08.386 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=UTF-8
+15:25:08.386 [main] DEBUG org.apache.http.headers - << Vary: Origin
+15:25:08.386 [main] DEBUG org.apache.http.headers - << Date: Mon, 26 Jun 2023 08:25:14 GMT
+15:25:08.386 [main] DEBUG org.apache.http.headers - << Content-Length: 45
+15:25:08.386 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+15:25:08.386 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=UTF-8
+15:25:08.386 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+15:25:08.388 [main] DEBUG org.apache.http.wire -  << "{"data":[],"message":"success get articles"}[\n]"
+15:25:08.388 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@582b14e2
+15:25:08.388 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+15:25:08.388 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send GET HTTP request
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send GET HTTP request&amp#27;[0m                                                       &amp#27;[90m# starter.stepDefinition.SearchArticleUserSteps.sendGetHttpRequestNeg()&amp#27;[0m
+15:25:08.391 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SearchArticleUserSteps.receiveValidHttpResponseNeg - I Receive valid HTTP response code is 200
+15:25:08.391 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I Receive valid HTTP response code is 200
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI Receive valid HTTP response code is 200&amp#27;[0m                                     &amp#27;[90m# starter.stepDefinition.SearchArticleUserSteps.receiveValidHttpResponseNeg()&amp#27;[0m
+15:25:08.393 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SearchArticleUserSteps.validateDataArticleKeywordNeg - I receive blank data for article based on my false keyword
+15:25:08.405 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive blank data for article based on my false keyword
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI receive blank data for article based on my false keyword&amp#27;[0m                     &amp#27;[90m# starter.stepDefinition.SearchArticleUserSteps.validateDataArticleKeywordNeg()&amp#27;[0m
+15:25:08.406 [main] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+GET - As user I have be able to get blank page for article keyword i input
+----------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+</testsuite>

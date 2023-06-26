@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="SearchArticle" skipped="0" tests="2" time="0.38" timestamp="2023-06-26 03:25:08"><testcase name="GET - As user I have be able to search article by keyword i input"/><testcase name="GET - As user I have be able to get blank page for article keyword i input"/></testsuite>

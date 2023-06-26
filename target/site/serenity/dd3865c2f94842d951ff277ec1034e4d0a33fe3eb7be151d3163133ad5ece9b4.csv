@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"GetDoctorIdUser","GET - As admin I have be able to get doctor by id i input","SUCCESS","2023-06-26T15:25:07.524488+07:00[Asia/Jakarta]","0.0","0.28"
+"GetDoctorIdUser","GET - As admin I have be able to prevented to get doctor by id i input","SUCCESS","2023-06-26T15:25:07.8081874+07:00[Asia/Jakarta]","0.0","0.21"

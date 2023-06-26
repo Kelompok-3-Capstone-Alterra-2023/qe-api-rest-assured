@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"ArticleAdmin","PUT - As admin I have be able to approve an article","SUCCESS","2023-06-26T15:25:02.6254217+07:00[Asia/Jakarta]","0.0","3.14"
+"ArticleAdmin","PUT - As admin I have be able prevented to approve an article","SUCCESS","2023-06-26T15:25:05.7807237+07:00[Asia/Jakarta]","0.0","0.24"
+"ArticleAdmin","PUT - As admin I have be able to reject an article","SUCCESS","2023-06-26T15:25:06.0338319+07:00[Asia/Jakarta]","0.0","0.17"
+"ArticleAdmin","PUT - As admin I have be able prevented to reject an article","SUCCESS","2023-06-26T15:25:06.2131045+07:00[Asia/Jakarta]","0.0","0.24"
