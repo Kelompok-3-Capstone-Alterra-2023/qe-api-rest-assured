@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="PrakBDD9.2" />
+        <module name="qe-api-rest-assured" />
         <module name="RestAssuredMiniProject" />
         <module name="RestAssuredCapstoneProject" />
         <module name="PrakRestAssured10" />
